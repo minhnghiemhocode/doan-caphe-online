@@ -12,6 +12,7 @@ import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
+import jnafilechooser.api.JnaFileChooser;
 
 public class AdminDashboard extends javax.swing.JFrame {
 
@@ -175,6 +176,7 @@ public class AdminDashboard extends javax.swing.JFrame {
         eaBackbt1 = new javax.swing.JButton();
         jLabel90 = new javax.swing.JLabel();
         jLabel134 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
         jpDeleteProduct = new javax.swing.JPanel();
         jLabel91 = new javax.swing.JLabel();
         jLabel92 = new javax.swing.JLabel();
@@ -211,6 +213,7 @@ public class AdminDashboard extends javax.swing.JFrame {
         edEnter3 = new javax.swing.JTextField();
         edSearch3 = new javax.swing.JButton();
         jLabel137 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
         jpVoucher = new javax.swing.JPanel();
         jLabel104 = new javax.swing.JLabel();
         jLabel105 = new javax.swing.JLabel();
@@ -1533,6 +1536,16 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel134.setForeground(new java.awt.Color(0, 0, 0));
         jLabel134.setText("Mô tả");
 
+        jButton1.setBackground(new java.awt.Color(255, 255, 255));
+        jButton1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(182, 170, 159));
+        jButton1.setText("Browser");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jpAddProductLayout = new javax.swing.GroupLayout(jpAddProduct);
         jpAddProduct.setLayout(jpAddProductLayout);
         jpAddProductLayout.setHorizontalGroup(
@@ -1570,7 +1583,9 @@ public class AdminDashboard extends javax.swing.JFrame {
                 .addComponent(jLabel88))
             .addGroup(jpAddProductLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
-                .addComponent(eaUsername1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(eaUsername1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(60, 60, 60)
+                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(jpAddProductLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
                 .addComponent(jLabel84))
@@ -1607,7 +1622,9 @@ public class AdminDashboard extends javax.swing.JFrame {
                 .addGroup(jpAddProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel87)
                     .addComponent(jLabel88))
-                .addComponent(eaUsername1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jpAddProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(eaUsername1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(20, 20, 20)
                 .addComponent(jLabel84)
                 .addGroup(jpAddProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1858,6 +1875,16 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel137.setForeground(new java.awt.Color(0, 0, 0));
         jLabel137.setText("Hình ảnh");
 
+        jButton2.setBackground(new java.awt.Color(255, 255, 255));
+        jButton2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(182, 170, 159));
+        jButton2.setText("Browser");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jpUpdateProductLayout = new javax.swing.GroupLayout(jpUpdateProduct);
         jpUpdateProduct.setLayout(jpUpdateProductLayout);
         jpUpdateProductLayout.setHorizontalGroup(
@@ -1911,7 +1938,9 @@ public class AdminDashboard extends javax.swing.JFrame {
                 .addComponent(euWorkDate1, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(15, 15, 15)
                 .addComponent(euSalary1, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(365, 365, 365)
+                .addGap(15, 15, 15)
+                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(225, 225, 225)
                 .addComponent(euSavebt1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(10, 10, 10)
                 .addComponent(euBackbt1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -1958,6 +1987,7 @@ public class AdminDashboard extends javax.swing.JFrame {
                 .addGroup(jpUpdateProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(euWorkDate1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(euSalary1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(euSavebt1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(euBackbt1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
@@ -3802,8 +3832,8 @@ public class AdminDashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_emSearch1ActionPerformed
 
     private void emAddbt1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_emAddbt1MouseClicked
-        jpEmployee.setVisible(false);
-        jpAddEmployee.setVisible(true);
+        jpProduct.setVisible(false);
+        jpAddProduct.setVisible(true);
     }//GEN-LAST:event_emAddbt1MouseClicked
 
     private void emAddbt1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_emAddbt1ActionPerformed
@@ -3811,8 +3841,8 @@ public class AdminDashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_emAddbt1ActionPerformed
 
     private void emDeletebt1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_emDeletebt1MouseClicked
-        jpEmployee.setVisible(false);
-        jpDeleteEmployee.setVisible(true);
+        jpProduct.setVisible(false);
+        jpDeleteProduct.setVisible(true);
     }//GEN-LAST:event_emDeletebt1MouseClicked
 
     private void emDeletebt1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_emDeletebt1ActionPerformed
@@ -3820,8 +3850,8 @@ public class AdminDashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_emDeletebt1ActionPerformed
 
     private void emUpdatebt1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_emUpdatebt1MouseClicked
-        jpEmployee.setVisible(false);
-        jpUpdateEmployee.setVisible(true);
+        jpProduct.setVisible(false);
+        jpUpdateProduct.setVisible(true);
     }//GEN-LAST:event_emUpdatebt1MouseClicked
 
     private void emUpdatebt1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_emUpdatebt1ActionPerformed
@@ -3833,8 +3863,8 @@ public class AdminDashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_eaAddbt1ActionPerformed
 
     private void eaBackbt1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_eaBackbt1MouseClicked
-        jpEmployee.setVisible(true);
-        jpAddEmployee.setVisible(false);
+        jpProduct.setVisible(true);
+        jpAddProduct.setVisible(false);
     }//GEN-LAST:event_eaBackbt1MouseClicked
 
     private void eaBackbt1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eaBackbt1ActionPerformed
@@ -3846,8 +3876,8 @@ public class AdminDashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_edEnter1ActionPerformed
 
     private void edBackbt1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_edBackbt1MouseClicked
-        jpEmployee.setVisible(true);
-        jpDeleteEmployee.setVisible(false);
+        jpProduct.setVisible(true);
+        jpDeleteProduct.setVisible(false);
     }//GEN-LAST:event_edBackbt1MouseClicked
 
     private void edBackbt1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edBackbt1ActionPerformed
@@ -3859,8 +3889,8 @@ public class AdminDashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_euSavebt1ActionPerformed
 
     private void euBackbt1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_euBackbt1MouseClicked
-        jpEmployee.setVisible(true);
-        jpUpdateEmployee.setVisible(false);
+        jpProduct.setVisible(true);
+        jpUpdateProduct.setVisible(false);
     }//GEN-LAST:event_euBackbt1MouseClicked
 
     private void emSearch2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_emSearch2ActionPerformed
@@ -4027,6 +4057,26 @@ public class AdminDashboard extends javax.swing.JFrame {
        
     }//GEN-LAST:event_emSearch6ActionPerformed
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        JnaFileChooser choose = new JnaFileChooser();
+        choose.setMode(JnaFileChooser.Mode.Directories);
+        String anh = "";
+        boolean action = choose.showOpenDialog(this);
+        if (action){
+            anh = choose.getSelectedFile().getName();
+        }
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        JnaFileChooser choose = new JnaFileChooser();
+        choose.setMode(JnaFileChooser.Mode.Directories);
+        String anh = "";
+        boolean action = choose.showOpenDialog(this);
+        if (action){
+            anh = choose.getSelectedFile().getName();
+        }
+    }//GEN-LAST:event_jButton2ActionPerformed
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public static javax.swing.JLabel adminUsername;
     private userView.SVGImage closeMenu;
@@ -4168,6 +4218,8 @@ public class AdminDashboard extends javax.swing.JFrame {
     private javax.swing.JTextField iaNgaysx;
     private javax.swing.JTextField iuHansd;
     private javax.swing.JTextField iuNgaysx;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox4;
