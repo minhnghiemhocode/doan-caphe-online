@@ -839,7 +839,6 @@ public class EmpDashboard extends javax.swing.JFrame {
         }).start();
     }
 
-
     private void lbLogoutMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbLogoutMouseClicked
         int a = JOptionPane.showConfirmDialog(this, "Bạn có muốn đăng xuất không?","Đăng xuất",JOptionPane.YES_NO_OPTION);
         if (a == 0){
