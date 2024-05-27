@@ -7,6 +7,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -654,8 +655,7 @@ public class UserDashboard extends JFrame {
         jLabel324 = new javax.swing.JLabel();
         jLabel325 = new javax.swing.JLabel();
         jLabel326 = new javax.swing.JLabel();
-        jComboBox1 = new javax.swing.JComboBox<>();
-        jComboBox2 = new javax.swing.JComboBox<>();
+        ptttCB = new javax.swing.JComboBox<>();
         jComboBox3 = new javax.swing.JComboBox<>();
         jTextField1 = new javax.swing.JTextField();
         jTextField2 = new javax.swing.JTextField();
@@ -663,58 +663,12 @@ public class UserDashboard extends JFrame {
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
-        scrollPane2 = new java.awt.ScrollPane();
-        jPanel8 = new javax.swing.JPanel();
-        jLabel371 = new javax.swing.JLabel();
-        jLabel372 = new javax.swing.JLabel();
-        jLabel373 = new javax.swing.JLabel();
-        jLabel374 = new javax.swing.JLabel();
-        jScrollPane5 = new javax.swing.JScrollPane();
-        jTable5 = new javax.swing.JTable();
-        jLabel375 = new javax.swing.JLabel();
-        jLabel376 = new javax.swing.JLabel();
-        jLabel377 = new javax.swing.JLabel();
-        jLabel378 = new javax.swing.JLabel();
-        jLabel379 = new javax.swing.JLabel();
-        jLabel380 = new javax.swing.JLabel();
-        jLabel381 = new javax.swing.JLabel();
-        jLabel382 = new javax.swing.JLabel();
-        jLabel383 = new javax.swing.JLabel();
-        jLabel384 = new javax.swing.JLabel();
-        jLabel385 = new javax.swing.JLabel();
-        jLabel386 = new javax.swing.JLabel();
-        jLabel387 = new javax.swing.JLabel();
-        jLabel388 = new javax.swing.JLabel();
-        jLabel389 = new javax.swing.JLabel();
-        jLabel390 = new javax.swing.JLabel();
-        jLabel391 = new javax.swing.JLabel();
-        jLabel392 = new javax.swing.JLabel();
-        jPanel14 = new javax.swing.JPanel();
-        jLabel393 = new javax.swing.JLabel();
-        jLabel394 = new javax.swing.JLabel();
-        jLabel395 = new javax.swing.JLabel();
-        jLabel396 = new javax.swing.JLabel();
-        jScrollPane6 = new javax.swing.JScrollPane();
-        jTable6 = new javax.swing.JTable();
-        jLabel397 = new javax.swing.JLabel();
-        jLabel398 = new javax.swing.JLabel();
-        jLabel399 = new javax.swing.JLabel();
-        jLabel400 = new javax.swing.JLabel();
-        jLabel401 = new javax.swing.JLabel();
-        jLabel402 = new javax.swing.JLabel();
-        jLabel403 = new javax.swing.JLabel();
-        jLabel404 = new javax.swing.JLabel();
-        jLabel405 = new javax.swing.JLabel();
-        jLabel406 = new javax.swing.JLabel();
-        jLabel407 = new javax.swing.JLabel();
-        jLabel408 = new javax.swing.JLabel();
-        jLabel409 = new javax.swing.JLabel();
-        jLabel410 = new javax.swing.JLabel();
-        jLabel411 = new javax.swing.JLabel();
-        jLabel412 = new javax.swing.JLabel();
-        jLabel413 = new javax.swing.JLabel();
-        jLabel414 = new javax.swing.JLabel();
         jButton10 = new javax.swing.JButton();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        BillTextPane = new javax.swing.JTextPane();
+        jLabel368 = new javax.swing.JLabel();
+        makmCB = new javax.swing.JComboBox<>();
+        diemSP = new javax.swing.JSpinner();
         jLabel8 = new javax.swing.JLabel();
         jLabel313 = new javax.swing.JLabel();
 
@@ -3635,64 +3589,72 @@ public class UserDashboard extends JFrame {
         jLabel320.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel320.setForeground(new java.awt.Color(0, 0, 0));
         jLabel320.setText("Phương thức thanh toán");
-        jpThanhtoan.add(jLabel320, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, -1, -1));
+        jpThanhtoan.add(jLabel320, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, -1, -1));
 
         jLabel321.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jLabel321.setForeground(new java.awt.Color(100, 19, 19));
         jLabel321.setText("THANH TOÁN");
-        jpThanhtoan.add(jLabel321, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, -1, -1));
+        jpThanhtoan.add(jLabel321, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, -1, -1));
 
         jLabel322.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel322.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel322.setText("Mã giảm giá");
-        jpThanhtoan.add(jLabel322, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, -1, -1));
+        jLabel322.setText("Điểm sử dụng");
+        jpThanhtoan.add(jLabel322, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, -1, -1));
 
         jLabel323.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel323.setForeground(new java.awt.Color(0, 0, 0));
         jLabel323.setText("Địa chỉ");
-        jpThanhtoan.add(jLabel323, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 210, -1, -1));
+        jpThanhtoan.add(jLabel323, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 60, -1, -1));
 
         jLabel324.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel324.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel324.setText("Địa chỉ chi tiết (nếu có)");
-        jpThanhtoan.add(jLabel324, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 270, -1, -1));
+        jLabel324.setText("Địa chỉ khác (nếu có)");
+        jpThanhtoan.add(jLabel324, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 140, -1, -1));
 
         jLabel325.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel325.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel325.setText("Lưu ý cho nhân viên");
-        jpThanhtoan.add(jLabel325, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 390, -1, -1));
+        jLabel325.setText("Lưu ý cho nhân viên (nếu có)");
+        jpThanhtoan.add(jLabel325, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 300, -1, 30));
 
         jLabel326.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel326.setForeground(new java.awt.Color(0, 0, 0));
         jLabel326.setText("Hẹn giờ đặt (nếu có)");
-        jpThanhtoan.add(jLabel326, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 330, -1, -1));
+        jpThanhtoan.add(jLabel326, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 220, -1, -1));
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Cash", "VNPay", "Momo", "Apple Pay" }));
-        jpThanhtoan.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 80, 150, 40));
+        ptttCB.setBackground(new java.awt.Color(255, 255, 255));
+        ptttCB.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        ptttCB.setForeground(new java.awt.Color(0, 0, 0));
+        ptttCB.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Tiền mặt ", "Thẻ tín dụng ", "Ví điện tử" }));
+        jpThanhtoan.add(ptttCB, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 80, 150, 40));
 
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "TETVN", "TCH50", "TCH70", "TCH0D" }));
-        jpThanhtoan.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 140, 150, 40));
-
-        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Default", "Địa chỉ khác" }));
-        jpThanhtoan.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 200, 150, 40));
+        jComboBox3.setBackground(new java.awt.Color(255, 255, 255));
+        jComboBox3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jComboBox3.setForeground(new java.awt.Color(0, 0, 0));
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Default", "Khác" }));
+        jpThanhtoan.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 80, 150, 40));
 
         jTextField1.setBackground(new java.awt.Color(255, 255, 255));
         jTextField1.setForeground(new java.awt.Color(0, 0, 0));
-        jpThanhtoan.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 260, 250, 40));
+        jpThanhtoan.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 160, 200, 40));
 
         jTextField2.setBackground(new java.awt.Color(255, 255, 255));
         jTextField2.setForeground(new java.awt.Color(0, 0, 0));
-        jpThanhtoan.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 320, 125, 40));
+        jpThanhtoan.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 240, 150, 40));
 
         jTextField3.setBackground(new java.awt.Color(255, 255, 255));
         jTextField3.setForeground(new java.awt.Color(0, 0, 0));
-        jpThanhtoan.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 380, 250, 50));
+        jpThanhtoan.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 330, 340, 40));
 
         jButton1.setBackground(new java.awt.Color(100, 19, 19));
         jButton1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Xác nhận");
-        jpThanhtoan.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 450, 100, 40));
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jpThanhtoan.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 460, 100, 40));
 
         jButton2.setBackground(new java.awt.Color(100, 19, 19));
         jButton2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -3708,285 +3670,10 @@ public class UserDashboard extends JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        jpThanhtoan.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 450, 100, 40));
+        jpThanhtoan.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 460, 100, 40));
 
         jPanel4.setBackground(new java.awt.Color(100, 19, 19));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        scrollPane2.setBackground(new java.awt.Color(255, 255, 255));
-
-        jPanel8.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel8.setPreferredSize(new java.awt.Dimension(320, 720));
-        jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel371.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel371.setForeground(new java.awt.Color(168, 138, 107));
-        jLabel371.setText("THE COFFEE HOME");
-        jPanel8.add(jLabel371, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, -1, -1));
-
-        jLabel372.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
-        jLabel372.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel372.setText("HOÁ ĐƠN THANH TOÁN");
-        jPanel8.add(jLabel372, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 100, -1, -1));
-
-        jLabel373.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel373.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel373.setText("Mã hoá đơn: HD01");
-        jPanel8.add(jLabel373, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, -1, -1));
-
-        jLabel374.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel374.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel374.setText("Ngày: 19-05-2024");
-        jPanel8.add(jLabel374, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 140, -1, -1));
-
-        jTable5.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null}
-            },
-            new String [] {
-                "STT", "Tên", "SL", "Giá", "Tiền"
-            }
-        ));
-        jScrollPane5.setViewportView(jTable5);
-        if (jTable5.getColumnModel().getColumnCount() > 0) {
-            jTable5.getColumnModel().getColumn(0).setResizable(false);
-            jTable5.getColumnModel().getColumn(0).setPreferredWidth(40);
-            jTable5.getColumnModel().getColumn(1).setPreferredWidth(100);
-            jTable5.getColumnModel().getColumn(2).setResizable(false);
-            jTable5.getColumnModel().getColumn(2).setPreferredWidth(50);
-            jTable5.getColumnModel().getColumn(3).setPreferredWidth(80);
-        }
-
-        jPanel8.add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, 290, 170));
-
-        jLabel375.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel375.setText("Tổng số món: 5");
-        jPanel8.add(jLabel375, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
-
-        jLabel376.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel376.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel376.setText("Tiền ship:");
-        jPanel8.add(jLabel376, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 430, -1, -1));
-
-        jLabel377.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel377.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel377.setText("Tổng tiền:");
-        jPanel8.add(jLabel377, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 520, -1, -1));
-
-        jLabel378.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel378.setText("Thanh toán tiền mặt");
-        jPanel8.add(jLabel378, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 550, -1, -1));
-
-        jLabel379.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel379.setText("----------------------------------------------------------------------------");
-        jPanel8.add(jLabel379, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 650, 370, -1));
-
-        jLabel380.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel380.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel380.setText("Khuyến mãi:");
-        jPanel8.add(jLabel380, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 460, -1, -1));
-
-        jLabel381.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel381.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel381.setText("Điểm tích luỹ:");
-        jPanel8.add(jLabel381, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 490, -1, -1));
-
-        jLabel382.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel382.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel382.setText("Cảm ơn quý khách!");
-        jPanel8.add(jLabel382, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 670, -1, -1));
-
-        jLabel383.setFont(new java.awt.Font("Segoe UI", 2, 12)); // NOI18N
-        jLabel383.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel383.setText("   thecoffeehome.com.vn");
-        jPanel8.add(jLabel383, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 690, 130, -1));
-
-        jLabel384.setFont(new java.awt.Font("Segoe UI", 2, 12)); // NOI18N
-        jLabel384.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel384.setText("TP. Thủ Đức, TP. Hồ Chí Minh");
-        jPanel8.add(jLabel384, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 50, -1, 30));
-
-        jLabel385.setFont(new java.awt.Font("Segoe UI", 2, 12)); // NOI18N
-        jLabel385.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel385.setText("Địa chỉ: 22/52 Đường Võ Văn Ngân, ");
-        jPanel8.add(jLabel385, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 40, -1, -1));
-
-        jLabel386.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel386.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel386.setText("20,000 Đ");
-        jPanel8.add(jLabel386, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 430, -1, -1));
-
-        jLabel387.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel387.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel387.setText("100,000 Đ");
-        jPanel8.add(jLabel387, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 460, -1, -1));
-
-        jLabel388.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel388.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel388.setText("10");
-        jPanel8.add(jLabel388, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 490, 60, -1));
-
-        jLabel389.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel389.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel389.setText("490,000 Đ");
-        jPanel8.add(jLabel389, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 520, 60, -1));
-
-        jLabel390.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel390.setText("Khách hàng: Đỗ Minh Nghiêm");
-        jPanel8.add(jLabel390, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 600, -1, -1));
-
-        jLabel391.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel391.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel391.setText("Thành tiền:");
-        jPanel8.add(jLabel391, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 400, -1, -1));
-
-        jLabel392.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel392.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel392.setText("580,000 Đ");
-        jPanel8.add(jLabel392, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 400, -1, -1));
-
-        jPanel14.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel393.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel393.setForeground(new java.awt.Color(168, 138, 107));
-        jLabel393.setText("THE COFFEE HOME");
-        jPanel14.add(jLabel393, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, -1, -1));
-
-        jLabel394.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
-        jLabel394.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel394.setText("HOÁ ĐƠN THANH TOÁN");
-        jPanel14.add(jLabel394, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 100, -1, -1));
-
-        jLabel395.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel395.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel395.setText("Mã hoá đơn: HD01");
-        jPanel14.add(jLabel395, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, -1, -1));
-
-        jLabel396.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel396.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel396.setText("Ngày: 19-05-2024");
-        jPanel14.add(jLabel396, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 140, -1, -1));
-
-        jTable6.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null}
-            },
-            new String [] {
-                "STT", "Tên", "SL", "Giá", "Thành tiền"
-            }
-        ));
-        jScrollPane6.setViewportView(jTable6);
-
-        jPanel14.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, 290, 170));
-
-        jLabel397.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel397.setText("Tổng số món: 5");
-        jPanel14.add(jLabel397, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, -1, -1));
-
-        jLabel398.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel398.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel398.setText("Tiền ship:");
-        jPanel14.add(jLabel398, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 430, -1, -1));
-
-        jLabel399.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel399.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel399.setText("Tổng tiền:");
-        jPanel14.add(jLabel399, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 520, -1, -1));
-
-        jLabel400.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel400.setText("Thanh toán tiền mặt");
-        jPanel14.add(jLabel400, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 550, -1, -1));
-
-        jLabel401.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel401.setText("--------------------------------------------------------------");
-        jPanel14.add(jLabel401, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 650, -1, -1));
-
-        jLabel402.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel402.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel402.setText("Khuyến mãi:");
-        jPanel14.add(jLabel402, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 460, -1, -1));
-
-        jLabel403.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel403.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel403.setText("Điểm tích luỹ:");
-        jPanel14.add(jLabel403, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 490, -1, -1));
-
-        jLabel404.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel404.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel404.setText("Cảm ơn quý khách!");
-        jPanel14.add(jLabel404, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 670, -1, -1));
-
-        jLabel405.setFont(new java.awt.Font("Segoe UI", 2, 12)); // NOI18N
-        jLabel405.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel405.setText("   thecoffeehome.com.vn");
-        jPanel14.add(jLabel405, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 690, 130, -1));
-
-        jLabel406.setFont(new java.awt.Font("Segoe UI", 2, 12)); // NOI18N
-        jLabel406.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel406.setText("TP. Thủ Đức, TP. Hồ Chí Minh");
-        jPanel14.add(jLabel406, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 50, -1, 30));
-
-        jLabel407.setFont(new java.awt.Font("Segoe UI", 2, 12)); // NOI18N
-        jLabel407.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel407.setText("Địa chỉ: 22/52 Đường Võ Văn Ngân, ");
-        jPanel14.add(jLabel407, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 40, -1, -1));
-
-        jLabel408.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel408.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel408.setText("20,000 Đ");
-        jPanel14.add(jLabel408, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 430, -1, -1));
-
-        jLabel409.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel409.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel409.setText("100,000 Đ");
-        jPanel14.add(jLabel409, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 460, -1, -1));
-
-        jLabel410.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel410.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel410.setText("10");
-        jPanel14.add(jLabel410, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 490, 60, -1));
-
-        jLabel411.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel411.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel411.setText("490,000 Đ");
-        jPanel14.add(jLabel411, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 520, 60, -1));
-
-        jLabel412.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel412.setText("Khách hàng: Đỗ Minh Nghiêm");
-        jPanel14.add(jLabel412, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 600, -1, -1));
-
-        jLabel413.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel413.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel413.setText("Thành tiền:");
-        jPanel14.add(jLabel413, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 400, -1, -1));
-
-        jLabel414.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel414.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel414.setText("580,000 Đ");
-        jPanel14.add(jLabel414, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 400, -1, -1));
-
-        jPanel8.add(jPanel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 40, 330, 720));
-
-        scrollPane2.add(jPanel8);
-
-        jPanel4.add(scrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 0, 350, 460));
 
         jButton10.setBackground(new java.awt.Color(255, 255, 255));
         jButton10.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -3994,7 +3681,29 @@ public class UserDashboard extends JFrame {
         jButton10.setText("Thanh toán");
         jPanel4.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 475, 350, 40));
 
-        jpThanhtoan.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 0, 410, 530));
+        BillTextPane.setBackground(new java.awt.Color(255, 255, 255));
+        BillTextPane.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
+        BillTextPane.setForeground(new java.awt.Color(0, 0, 0));
+        jScrollPane4.setViewportView(BillTextPane);
+
+        jPanel4.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, -10, 350, 470));
+
+        jpThanhtoan.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 0, 410, 531));
+
+        jLabel368.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel368.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel368.setText("Mã khuyến mãi");
+        jpThanhtoan.add(jLabel368, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, -1, -1));
+
+        makmCB.setBackground(new java.awt.Color(255, 255, 255));
+        makmCB.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        makmCB.setForeground(new java.awt.Color(0, 0, 0));
+        makmCB.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "None" }));
+        jpThanhtoan.add(makmCB, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 160, 150, 40));
+
+        diemSP.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        diemSP.setModel(new javax.swing.SpinnerNumberModel(0, 0, 50, 1));
+        jpThanhtoan.add(diemSP, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 240, 150, 40));
 
         pnContainer.add(jpThanhtoan, "card3");
 
@@ -4186,11 +3895,12 @@ public class UserDashboard extends JFrame {
         
         // Thêm dữ liệu cho đối tượng chung
         khach.setId_k(k.getId_k()); 
+        khach.setTenk(k.getTenk());
         khach.setSdt(k.getSdt()); 
 
         amID.setText("ID: " + String.valueOf(k.getId_k()));
-        amNameDisplay.setText(k.getTenk());
-        userUsername.setText(k.getUsername());
+        amNameDisplay.setText("Tên: " + k.getTenk());
+        userUsername.setText("Username: " + k.getUsername());
         amDiem.setText(String.valueOf(k.getDiem()));
 
         amUsername.setText(k.getUsername());
@@ -4347,7 +4057,65 @@ public class UserDashboard extends JFrame {
         lbmenusl.setText(String.valueOf(menusl));
         lbmenutt.setText(String.format("%.2f", menutt));
     }
-      
+    
+    // XỬ LÝ TRÊN PANEL THANH TOÁN ---------------------------------------------
+    
+    public static Date currentDate() {
+        return new Date();
+    }
+    
+    public static String currentDateFormat() {
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+        String date = dateFormat.format(currentDate());
+        
+        return date;
+    }
+
+    public void bill() {
+        // Begin
+        String head = "\n\t                    THE COFFEE HOME"
+                + "\n\t         Địa chỉ: 22/52 Đường Võ Văn Ngân,"
+                + "\n\t             TP. Thủ Đức, TP. Hồ Chí Minh"
+                + "\n\n\n\t                HOÁ ĐƠN THANH TOÁN"
+                + "\n\n\nMã hoá đơn: " + "id" + "\t\t\tNgày: " + currentDateFormat()
+                + "\n-----------------------------------------------------------------------------------\n"
+                + "Tên món\t\tSL\tGiá\tTiền"
+                + "\n-----------------------------------------------------------------------------------";
+
+        // Thêm sản phẩm đã chọn vào TextPane
+        DefaultTableModel tableModel = (DefaultTableModel) tableMenu.getModel();
+
+        String body = "";
+        for (int i = 0; i < tableMenu.getRowCount(); i++) {
+            String ten = tableModel.getValueAt(i, 0).toString();
+            String sl = tableModel.getValueAt(i, 1).toString();
+            String gia = tableModel.getValueAt(i, 2).toString();
+            String tien = tableModel.getValueAt(i, 3).toString();
+
+            String itemrow = ten + "\t\t" + sl + "\t" + gia + "\t" + tien;
+            body += "\n" + itemrow;
+        }
+
+        // Tổng cộng
+        String total = "\n-----------------------------------------------------------------------------------"
+                + "\nTổng số món: " + lbmenusl.getText()
+                + "\nThành tiền: \t\t\t\t" + lbmenutt.getText()
+                + "\nTiền ship: \t\t\t\t" + "25000"
+                + "\nKhuyến mãi: " + makmCB.getSelectedItem() + "\t\t\t-" + Double.parseDouble(lbmenutt.getText()) * khuyenmai.getGiamgia()
+                + "\nĐiểm sử dụng: " + diemSP.getValue() + "\t\t\t-" //+ 1000 * diemSP.getValue()
+                + "\nTổng tiền giảm: \t\t\t" + "0"
+                + "\n-----------------------------------------------------------------------------------"
+                + "\nTổng tiền: \t\t\t\t" + "0"
+                + "\nPhương thức thanh toán: " + ptttCB.getSelectedItem()
+                + "\n\nKhách hàng: " + khach.getTenk();
+
+        //End
+        String end = "\n\n-----------------------------------------------------------------------------------"
+                + "\t                      THE COFFEE HOME"
+                + "\n\t                    Xin cảm ơn quý khách!";
+        BillTextPane.setText(head + body + total + end);
+    }
+
     private void lbLogoutMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbLogoutMouseClicked
         int a = JOptionPane.showConfirmDialog(this, "Bạn có muốn đăng xuất không?", "Đăng xuất", JOptionPane.YES_NO_OPTION);
         if (a == 0) {
@@ -4780,7 +4548,13 @@ public class UserDashboard extends JFrame {
         closeMenuBar();
     }//GEN-LAST:event_jLabel314MouseClicked
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        bill();
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTextPane BillTextPane;
     private javax.swing.JPanel MenuBanh;
     private javax.swing.JPanel MenuCaphe;
     private javax.swing.JPanel MenuCard;
@@ -4800,6 +4574,7 @@ public class UserDashboard extends JFrame {
     private javax.swing.JTextField amSignDate;
     public static javax.swing.JTextField amUsername;
     private javax.swing.JButton btnReset;
+    private javax.swing.JSpinner diemSP;
     private javax.swing.JLabel dieukienLb;
     private javax.swing.JComboBox<String> fieldComboBox;
     private javax.swing.JLabel giaLb;
@@ -4848,7 +4623,6 @@ public class UserDashboard extends JFrame {
     private javax.swing.JCheckBox jCheckBox7;
     private javax.swing.JCheckBox jCheckBox8;
     private javax.swing.JCheckBox jCheckBox9;
-    private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JComboBox<String> jComboBox10;
     private javax.swing.JComboBox<String> jComboBox11;
     private javax.swing.JComboBox<String> jComboBox12;
@@ -4859,7 +4633,6 @@ public class UserDashboard extends JFrame {
     private javax.swing.JComboBox<String> jComboBox17;
     private javax.swing.JComboBox<String> jComboBox18;
     private javax.swing.JComboBox<String> jComboBox19;
-    private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox20;
     private javax.swing.JComboBox<String> jComboBox21;
     private javax.swing.JComboBox<String> jComboBox22;
@@ -5187,58 +4960,15 @@ public class UserDashboard extends JFrame {
     private javax.swing.JLabel jLabel365;
     private javax.swing.JLabel jLabel366;
     private javax.swing.JLabel jLabel367;
+    private javax.swing.JLabel jLabel368;
     private javax.swing.JLabel jLabel369;
     private javax.swing.JLabel jLabel37;
     private javax.swing.JLabel jLabel370;
-    private javax.swing.JLabel jLabel371;
-    private javax.swing.JLabel jLabel372;
-    private javax.swing.JLabel jLabel373;
-    private javax.swing.JLabel jLabel374;
-    private javax.swing.JLabel jLabel375;
-    private javax.swing.JLabel jLabel376;
-    private javax.swing.JLabel jLabel377;
-    private javax.swing.JLabel jLabel378;
-    private javax.swing.JLabel jLabel379;
     private javax.swing.JLabel jLabel38;
-    private javax.swing.JLabel jLabel380;
-    private javax.swing.JLabel jLabel381;
-    private javax.swing.JLabel jLabel382;
-    private javax.swing.JLabel jLabel383;
-    private javax.swing.JLabel jLabel384;
-    private javax.swing.JLabel jLabel385;
-    private javax.swing.JLabel jLabel386;
-    private javax.swing.JLabel jLabel387;
-    private javax.swing.JLabel jLabel388;
-    private javax.swing.JLabel jLabel389;
     private javax.swing.JLabel jLabel39;
-    private javax.swing.JLabel jLabel390;
-    private javax.swing.JLabel jLabel391;
-    private javax.swing.JLabel jLabel392;
-    private javax.swing.JLabel jLabel393;
-    private javax.swing.JLabel jLabel394;
-    private javax.swing.JLabel jLabel395;
-    private javax.swing.JLabel jLabel396;
-    private javax.swing.JLabel jLabel397;
-    private javax.swing.JLabel jLabel398;
-    private javax.swing.JLabel jLabel399;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel40;
-    private javax.swing.JLabel jLabel400;
-    private javax.swing.JLabel jLabel401;
-    private javax.swing.JLabel jLabel402;
-    private javax.swing.JLabel jLabel403;
-    private javax.swing.JLabel jLabel404;
-    private javax.swing.JLabel jLabel405;
-    private javax.swing.JLabel jLabel406;
-    private javax.swing.JLabel jLabel407;
-    private javax.swing.JLabel jLabel408;
-    private javax.swing.JLabel jLabel409;
     private javax.swing.JLabel jLabel41;
-    private javax.swing.JLabel jLabel410;
-    private javax.swing.JLabel jLabel411;
-    private javax.swing.JLabel jLabel412;
-    private javax.swing.JLabel jLabel413;
-    private javax.swing.JLabel jLabel414;
     private javax.swing.JLabel jLabel415;
     private javax.swing.JLabel jLabel417;
     private javax.swing.JLabel jLabel418;
@@ -5308,7 +5038,6 @@ public class UserDashboard extends JFrame {
     private javax.swing.JLabel jLabel99;
     private javax.swing.JLabel jLabela;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel14;
     private javax.swing.JPanel jPanel15;
     private javax.swing.JPanel jPanel16;
     private javax.swing.JPanel jPanel17;
@@ -5355,12 +5084,10 @@ public class UserDashboard extends JFrame {
     private javax.swing.JPanel jPanel55;
     private javax.swing.JPanel jPanel56;
     private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel8;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JScrollPane jScrollPane5;
-    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JSpinner jSpinner10;
     private javax.swing.JSpinner jSpinner11;
     private javax.swing.JSpinner jSpinner12;
@@ -5402,8 +5129,6 @@ public class UserDashboard extends JFrame {
     private javax.swing.JSpinner jSpinner7;
     private javax.swing.JSpinner jSpinner8;
     private javax.swing.JSpinner jSpinner9;
-    private javax.swing.JTable jTable5;
-    private javax.swing.JTable jTable6;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
@@ -5427,6 +5152,7 @@ public class UserDashboard extends JFrame {
     private javax.swing.JLabel lbmenusl;
     private javax.swing.JLabel lbmenutt;
     private javax.swing.JTextField loaikmTextfield;
+    private javax.swing.JComboBox<String> makmCB;
     private javax.swing.JLabel makmLb;
     private javax.swing.JTextField makmTextfield;
     private javax.swing.JLabel ngayLb;
@@ -5435,8 +5161,8 @@ public class UserDashboard extends JFrame {
     private javax.swing.JPanel pnContainer;
     private javax.swing.JPanel pnMain;
     private javax.swing.JPanel pnSlideMenu;
+    private javax.swing.JComboBox<String> ptttCB;
     private java.awt.ScrollPane scrollPane1;
-    private java.awt.ScrollPane scrollPane2;
     private javax.swing.JComboBox<String> sizeComboBox;
     private javax.swing.JSpinner slSpinner;
     private javax.swing.JTable tableKhuyenMai;
