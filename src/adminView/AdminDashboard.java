@@ -41,26 +41,15 @@ public class AdminDashboard extends javax.swing.JFrame {
         pnSlideMenu = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
-        closeMenu = new userView.SVGImage();
-        mainLogo = new userView.SVGImage();
+        jLabel7 = new javax.swing.JLabel();
         lbLogout = new javax.swing.JLabel();
         lbEmployee = new javax.swing.JLabel();
         lbAdd = new javax.swing.JLabel();
         lbVoucher = new javax.swing.JLabel();
         lbUser = new javax.swing.JLabel();
-        svgEmp = new userView.SVGImage();
-        svgPro = new userView.SVGImage();
-        svgVou = new userView.SVGImage();
-        svgUser = new userView.SVGImage();
-        svgLogout = new userView.SVGImage();
         lbUser1 = new javax.swing.JLabel();
         lbUser2 = new javax.swing.JLabel();
-        svgPro1 = new userView.SVGImage();
-        svgManage1 = new userView.SVGImage();
-        svgBill = new userView.SVGImage();
-        svgKho = new userView.SVGImage();
         lbUser3 = new javax.swing.JLabel();
-        svgSta = new userView.SVGImage();
         pnContainer = new javax.swing.JPanel();
         jpHome = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
@@ -109,23 +98,8 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel132 = new javax.swing.JLabel();
         jComboBox4 = new javax.swing.JComboBox<>();
         eaDiachi1 = new javax.swing.JTextField();
-        jpDeleteEmployee = new javax.swing.JPanel();
-        jLabel54 = new javax.swing.JLabel();
-        jLabel65 = new javax.swing.JLabel();
-        edCategory = new javax.swing.JComboBox<>();
-        jLabel66 = new javax.swing.JLabel();
-        edEnter = new javax.swing.JTextField();
-        edSearch = new javax.swing.JButton();
-        jScrollPane8 = new javax.swing.JScrollPane();
-        edTable = new javax.swing.JTable();
-        edDeletebt = new javax.swing.JButton();
-        edBackbt = new javax.swing.JButton();
         jpUpdateEmployee = new javax.swing.JPanel();
         jLabel55 = new javax.swing.JLabel();
-        jLabel67 = new javax.swing.JLabel();
-        jLabel68 = new javax.swing.JLabel();
-        euEnter = new javax.swing.JTextField();
-        euSearch = new javax.swing.JButton();
         jLabel69 = new javax.swing.JLabel();
         jLabel70 = new javax.swing.JLabel();
         euID = new javax.swing.JTextField();
@@ -138,14 +112,13 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel75 = new javax.swing.JLabel();
         euSavebt = new javax.swing.JButton();
         euBackbt = new javax.swing.JButton();
-        jScrollPane17 = new javax.swing.JScrollPane();
-        edTable3 = new javax.swing.JTable();
         jComboBox1 = new javax.swing.JComboBox<>();
         jLabel74 = new javax.swing.JLabel();
         jLabel133 = new javax.swing.JLabel();
         euNgaysinh = new javax.swing.JTextField();
-        jComboBox2 = new javax.swing.JComboBox<>();
         euDiachi1 = new javax.swing.JTextField();
+        jLabel65 = new javax.swing.JLabel();
+        jComboBox5 = new javax.swing.JComboBox<>();
         jpProduct = new javax.swing.JPanel();
         jLabel76 = new javax.swing.JLabel();
         jLabel77 = new javax.swing.JLabel();
@@ -163,10 +136,8 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel81 = new javax.swing.JLabel();
         eaID1 = new javax.swing.JTextField();
         jLabel82 = new javax.swing.JLabel();
-        eaName1 = new javax.swing.JTextField();
         eaPhone1 = new javax.swing.JTextField();
         jLabel84 = new javax.swing.JLabel();
-        eaWorkDate1 = new javax.swing.JTextField();
         jLabel85 = new javax.swing.JLabel();
         jLabel87 = new javax.swing.JLabel();
         eaUsername1 = new javax.swing.JTextField();
@@ -177,43 +148,27 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel90 = new javax.swing.JLabel();
         jLabel134 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
-        jpDeleteProduct = new javax.swing.JPanel();
-        jLabel91 = new javax.swing.JLabel();
-        jLabel92 = new javax.swing.JLabel();
-        edCategory1 = new javax.swing.JComboBox<>();
-        jLabel93 = new javax.swing.JLabel();
-        edEnter1 = new javax.swing.JTextField();
-        edSearch1 = new javax.swing.JButton();
-        edDeletebt1 = new javax.swing.JButton();
-        edBackbt1 = new javax.swing.JButton();
-        jScrollPane18 = new javax.swing.JScrollPane();
-        emTable3 = new javax.swing.JTable();
+        jComboBox2 = new javax.swing.JComboBox<>();
+        jComboBox3 = new javax.swing.JComboBox<>();
         jpUpdateProduct = new javax.swing.JPanel();
         jLabel94 = new javax.swing.JLabel();
         jLabel97 = new javax.swing.JLabel();
-        jLabel98 = new javax.swing.JLabel();
-        euID1 = new javax.swing.JTextField();
-        euName1 = new javax.swing.JTextField();
-        euSex1 = new javax.swing.JTextField();
-        euPhone1 = new javax.swing.JTextField();
-        euWorkDate1 = new javax.swing.JTextField();
-        jLabel99 = new javax.swing.JLabel();
-        jLabel100 = new javax.swing.JLabel();
-        jLabel101 = new javax.swing.JLabel();
-        jLabel102 = new javax.swing.JLabel();
-        euSalary1 = new javax.swing.JTextField();
-        jLabel103 = new javax.swing.JLabel();
         euSavebt1 = new javax.swing.JButton();
         euBackbt1 = new javax.swing.JButton();
-        jScrollPane19 = new javax.swing.JScrollPane();
-        emTable4 = new javax.swing.JTable();
-        edCategory3 = new javax.swing.JComboBox<>();
+        jLabel91 = new javax.swing.JLabel();
+        eaID4 = new javax.swing.JTextField();
+        jLabel92 = new javax.swing.JLabel();
+        jComboBox6 = new javax.swing.JComboBox<>();
+        jLabel93 = new javax.swing.JLabel();
+        eaUsername4 = new javax.swing.JTextField();
+        jLabel118 = new javax.swing.JLabel();
+        eaPhone4 = new javax.swing.JTextField();
+        jButton3 = new javax.swing.JButton();
+        jLabel119 = new javax.swing.JLabel();
+        eaPassword2 = new javax.swing.JTextField();
         jLabel135 = new javax.swing.JLabel();
-        jLabel136 = new javax.swing.JLabel();
-        edEnter3 = new javax.swing.JTextField();
-        edSearch3 = new javax.swing.JButton();
-        jLabel137 = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
+        jComboBox7 = new javax.swing.JComboBox<>();
+        jLabel120 = new javax.swing.JLabel();
         jpVoucher = new javax.swing.JPanel();
         jLabel104 = new javax.swing.JLabel();
         jLabel105 = new javax.swing.JLabel();
@@ -231,7 +186,6 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel108 = new javax.swing.JLabel();
         eaID2 = new javax.swing.JTextField();
         jLabel109 = new javax.swing.JLabel();
-        eaName2 = new javax.swing.JTextField();
         eaPhone2 = new javax.swing.JTextField();
         jLabel111 = new javax.swing.JLabel();
         vaNgaykt = new javax.swing.JTextField();
@@ -243,45 +197,28 @@ public class AdminDashboard extends javax.swing.JFrame {
         eaBackbt2 = new javax.swing.JButton();
         jLabel117 = new javax.swing.JLabel();
         jLabel138 = new javax.swing.JLabel();
-        eaWorkDate4 = new javax.swing.JTextField();
         vaNgaybd = new javax.swing.JTextField();
-        jpDeleteVoucher = new javax.swing.JPanel();
-        jLabel118 = new javax.swing.JLabel();
-        jLabel119 = new javax.swing.JLabel();
-        edCategory2 = new javax.swing.JComboBox<>();
-        jLabel120 = new javax.swing.JLabel();
-        edEnter2 = new javax.swing.JTextField();
-        edSearch2 = new javax.swing.JButton();
-        edDeletebt2 = new javax.swing.JButton();
-        edBackbt2 = new javax.swing.JButton();
-        jScrollPane20 = new javax.swing.JScrollPane();
-        emTable5 = new javax.swing.JTable();
+        jComboBox8 = new javax.swing.JComboBox<>();
+        jSpinner1 = new javax.swing.JSpinner();
         jpUpdateVoucher = new javax.swing.JPanel();
         jLabel121 = new javax.swing.JLabel();
-        jLabel124 = new javax.swing.JLabel();
-        jLabel125 = new javax.swing.JLabel();
-        euID2 = new javax.swing.JTextField();
-        euName2 = new javax.swing.JTextField();
-        euSex2 = new javax.swing.JTextField();
-        euPhone2 = new javax.swing.JTextField();
-        vuNgaykt = new javax.swing.JTextField();
-        jLabel126 = new javax.swing.JLabel();
-        jLabel127 = new javax.swing.JLabel();
-        jLabel128 = new javax.swing.JLabel();
-        jLabel129 = new javax.swing.JLabel();
-        jLabel130 = new javax.swing.JLabel();
         euSavebt2 = new javax.swing.JButton();
         euBackbt2 = new javax.swing.JButton();
-        jScrollPane21 = new javax.swing.JScrollPane();
-        emTable6 = new javax.swing.JTable();
-        edCategory4 = new javax.swing.JComboBox<>();
-        jLabel139 = new javax.swing.JLabel();
-        jLabel140 = new javax.swing.JLabel();
-        edEnter4 = new javax.swing.JTextField();
-        edSearch4 = new javax.swing.JButton();
-        jLabel141 = new javax.swing.JLabel();
-        euWorkDate3 = new javax.swing.JTextField();
+        jLabel136 = new javax.swing.JLabel();
+        eaID5 = new javax.swing.JTextField();
+        jLabel137 = new javax.swing.JLabel();
+        jComboBox9 = new javax.swing.JComboBox<>();
+        jLabel147 = new javax.swing.JLabel();
+        eaUsername5 = new javax.swing.JTextField();
+        jLabel150 = new javax.swing.JLabel();
+        eaPhone5 = new javax.swing.JTextField();
+        vuNgaykt = new javax.swing.JTextField();
+        jLabel151 = new javax.swing.JLabel();
         vuNgaybd = new javax.swing.JTextField();
+        jLabel161 = new javax.swing.JLabel();
+        jSpinner2 = new javax.swing.JSpinner();
+        jLabel162 = new javax.swing.JLabel();
+        jLabel165 = new javax.swing.JLabel();
         jpUser = new javax.swing.JPanel();
         jLabel60 = new javax.swing.JLabel();
         jLabel83 = new javax.swing.JLabel();
@@ -310,7 +247,6 @@ public class AdminDashboard extends javax.swing.JFrame {
         eaID3 = new javax.swing.JTextField();
         jLabel122 = new javax.swing.JLabel();
         eaName3 = new javax.swing.JTextField();
-        eaPhone3 = new javax.swing.JTextField();
         jLabel123 = new javax.swing.JLabel();
         iaHansd = new javax.swing.JTextField();
         jLabel142 = new javax.swing.JLabel();
@@ -323,50 +259,33 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel146 = new javax.swing.JLabel();
         eaWorkDate5 = new javax.swing.JTextField();
         iaNgaysx = new javax.swing.JTextField();
-        jpDeleteKho = new javax.swing.JPanel();
-        jLabel147 = new javax.swing.JLabel();
-        edDeletebt3 = new javax.swing.JButton();
-        edBackbt3 = new javax.swing.JButton();
-        jScrollPane12 = new javax.swing.JScrollPane();
-        emTable9 = new javax.swing.JTable();
-        emEnter5 = new javax.swing.JTextField();
-        emSearch5 = new javax.swing.JButton();
-        jLabel150 = new javax.swing.JLabel();
-        emCategory5 = new javax.swing.JComboBox<>();
-        jLabel151 = new javax.swing.JLabel();
+        jSpinner3 = new javax.swing.JSpinner();
         jpUpdateKho = new javax.swing.JPanel();
         jLabel152 = new javax.swing.JLabel();
-        jLabel153 = new javax.swing.JLabel();
-        jLabel154 = new javax.swing.JLabel();
-        euID3 = new javax.swing.JTextField();
-        euName3 = new javax.swing.JTextField();
-        euSex3 = new javax.swing.JTextField();
-        euPhone3 = new javax.swing.JTextField();
-        jLabel155 = new javax.swing.JLabel();
-        jLabel156 = new javax.swing.JLabel();
-        jLabel157 = new javax.swing.JLabel();
-        jLabel158 = new javax.swing.JLabel();
-        jLabel159 = new javax.swing.JLabel();
         euSavebt3 = new javax.swing.JButton();
         euBackbt3 = new javax.swing.JButton();
-        jLabel163 = new javax.swing.JLabel();
-        emEnter6 = new javax.swing.JTextField();
-        jLabel164 = new javax.swing.JLabel();
-        emSearch6 = new javax.swing.JButton();
-        emCategory7 = new javax.swing.JComboBox<>();
-        jScrollPane14 = new javax.swing.JScrollPane();
-        emTable11 = new javax.swing.JTable();
-        jLabel160 = new javax.swing.JLabel();
+        jLabel124 = new javax.swing.JLabel();
+        eaID6 = new javax.swing.JTextField();
+        jLabel125 = new javax.swing.JLabel();
+        eaName4 = new javax.swing.JTextField();
+        jLabel166 = new javax.swing.JLabel();
+        eaUsername6 = new javax.swing.JTextField();
+        jLabel126 = new javax.swing.JLabel();
+        jSpinner4 = new javax.swing.JSpinner();
         iuHansd = new javax.swing.JTextField();
-        euWorkDate5 = new javax.swing.JTextField();
+        jLabel167 = new javax.swing.JLabel();
         iuNgaysx = new javax.swing.JTextField();
+        jLabel168 = new javax.swing.JLabel();
+        eaWorkDate6 = new javax.swing.JTextField();
+        jLabel169 = new javax.swing.JLabel();
+        jLabel127 = new javax.swing.JLabel();
         jpHoaDon = new javax.swing.JPanel();
         jLabel148 = new javax.swing.JLabel();
         jpThongKe = new javax.swing.JPanel();
         jLabel149 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        openMenu = new userView.SVGImage();
         adminUsername = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -388,19 +307,15 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel2.setText("THE COFFEE HOME");
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, 170, -1));
 
-        closeMenu.addMouseListener(new java.awt.event.MouseAdapter() {
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setText("ĐÓNG");
+        jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                closeMenuMouseClicked(evt);
+                jLabel7MouseClicked(evt);
             }
         });
-        jPanel2.add(closeMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 10, 40, 41));
-
-        mainLogo.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                mainLogoMouseClicked(evt);
-            }
-        });
-        jPanel2.add(mainLogo, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 50, 120, 95));
+        jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, 60, -1));
 
         pnSlideMenu.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 200, 190));
 
@@ -454,11 +369,6 @@ public class AdminDashboard extends javax.swing.JFrame {
             }
         });
         pnSlideMenu.add(lbUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 360, -1, -1));
-        pnSlideMenu.add(svgEmp, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 210, 30, 30));
-        pnSlideMenu.add(svgPro, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, 30, 30));
-        pnSlideMenu.add(svgVou, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, 30, 30));
-        pnSlideMenu.add(svgUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 360, 30, 30));
-        pnSlideMenu.add(svgLogout, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 560, 30, 30));
 
         lbUser1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lbUser1.setForeground(new java.awt.Color(255, 255, 255));
@@ -479,10 +389,6 @@ public class AdminDashboard extends javax.swing.JFrame {
             }
         });
         pnSlideMenu.add(lbUser2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 410, -1, -1));
-        pnSlideMenu.add(svgPro1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, 30, 30));
-        pnSlideMenu.add(svgManage1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 360, 30, 30));
-        pnSlideMenu.add(svgBill, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 460, 30, 30));
-        pnSlideMenu.add(svgKho, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 410, 30, 30));
 
         lbUser3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lbUser3.setForeground(new java.awt.Color(255, 255, 255));
@@ -493,7 +399,6 @@ public class AdminDashboard extends javax.swing.JFrame {
             }
         });
         pnSlideMenu.add(lbUser3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 510, -1, -1));
-        pnSlideMenu.add(svgSta, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 510, 30, 30));
 
         pnMain.add(pnSlideMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 0, 600));
 
@@ -840,8 +745,8 @@ public class AdminDashboard extends javax.swing.JFrame {
                 .addComponent(jLabel58))
             .addGroup(jpAddEmployeeLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
-                .addComponent(eaID, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(70, 70, 70)
+                .addComponent(eaID, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(170, 170, 170)
                 .addComponent(eeSex, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(jpAddEmployeeLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
@@ -872,7 +777,7 @@ public class AdminDashboard extends javax.swing.JFrame {
                 .addGap(50, 50, 50)
                 .addComponent(eaName, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(70, 70, 70)
-                .addComponent(eaSalary, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(eaSalary, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(jpAddEmployeeLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
                 .addComponent(jLabel59)
@@ -883,9 +788,9 @@ public class AdminDashboard extends javax.swing.JFrame {
                 .addComponent(eaPhone, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(70, 70, 70)
                 .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(185, 185, 185)
+                .addGap(225, 225, 225)
                 .addComponent(eaAddbt, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
+                .addGap(10, 10, 10)
                 .addComponent(eaBackbt, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         jpAddEmployeeLayout.setVerticalGroup(
@@ -930,143 +835,14 @@ public class AdminDashboard extends javax.swing.JFrame {
                 .addGroup(jpAddEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(eaPhone, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(eaAddbt, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(eaBackbt, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jpAddEmployeeLayout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addGroup(jpAddEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(eaAddbt, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(eaBackbt, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))))
         );
 
         pnContainer.add(jpAddEmployee, "card12");
-
-        jpDeleteEmployee.setBackground(new java.awt.Color(242, 231, 220));
-        jpDeleteEmployee.setPreferredSize(new java.awt.Dimension(900, 533));
-
-        jLabel54.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel54.setForeground(new java.awt.Color(100, 19, 19));
-        jLabel54.setText("XOÁ NHÂN VIÊN");
-
-        jLabel65.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel65.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel65.setText("Tìm kiếm theo ");
-
-        edCategory.setBackground(new java.awt.Color(255, 255, 255));
-        edCategory.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        edCategory.setForeground(new java.awt.Color(0, 0, 0));
-        edCategory.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "ID", "Tên", "Số điện thoại", "Giới tính", "Ngày sinh", "Địa chỉ", "Lương cơ bản", "Ngày vào làm" }));
-
-        jLabel66.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel66.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel66.setText("Nhập thông tin");
-
-        edEnter.setBackground(new java.awt.Color(255, 255, 255));
-        edEnter.setForeground(new java.awt.Color(0, 0, 0));
-        edEnter.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                edEnterActionPerformed(evt);
-            }
-        });
-
-        edSearch.setBackground(new java.awt.Color(0, 0, 0));
-        edSearch.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        edSearch.setForeground(new java.awt.Color(255, 255, 255));
-        edSearch.setText("Tìm");
-        edSearch.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                edSearchActionPerformed(evt);
-            }
-        });
-
-        edTable.setBackground(new java.awt.Color(255, 255, 255));
-        edTable.setForeground(new java.awt.Color(0, 0, 0));
-        edTable.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-
-            },
-            new String [] {
-                "ID", "Tên", "Số điện thoại", "Giới tính", "Ngày sinh", "Địa chỉ", "Lương cơ bản", "Ngày vào làm"
-            }
-        ));
-        edTable.setGridColor(new java.awt.Color(100, 19, 19));
-        edTable.setSelectionBackground(new java.awt.Color(255, 255, 255));
-        jScrollPane8.setViewportView(edTable);
-        if (edTable.getColumnModel().getColumnCount() > 0) {
-            edTable.getColumnModel().getColumn(2).setResizable(false);
-            edTable.getColumnModel().getColumn(7).setHeaderValue("Ngày vào làm");
-        }
-
-        edDeletebt.setBackground(new java.awt.Color(100, 19, 19));
-        edDeletebt.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        edDeletebt.setForeground(new java.awt.Color(255, 255, 255));
-        edDeletebt.setText("Xoá");
-
-        edBackbt.setBackground(new java.awt.Color(255, 255, 255));
-        edBackbt.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        edBackbt.setForeground(new java.awt.Color(0, 0, 0));
-        edBackbt.setText("Huỷ");
-        edBackbt.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                edBackbtMouseClicked(evt);
-            }
-        });
-        edBackbt.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                edBackbtActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout jpDeleteEmployeeLayout = new javax.swing.GroupLayout(jpDeleteEmployee);
-        jpDeleteEmployee.setLayout(jpDeleteEmployeeLayout);
-        jpDeleteEmployeeLayout.setHorizontalGroup(
-            jpDeleteEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jpDeleteEmployeeLayout.createSequentialGroup()
-                .addGap(49, 49, 49)
-                .addComponent(jLabel54)
-                .addGap(50, 50, 50)
-                .addGroup(jpDeleteEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel65)
-                    .addComponent(edCategory, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(30, 30, 30)
-                .addGroup(jpDeleteEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel66)
-                    .addComponent(edEnter, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(30, 30, 30)
-                .addComponent(edSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jpDeleteEmployeeLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 670, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(50, 50, 50)
-                .addGroup(jpDeleteEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(edDeletebt, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(edBackbt, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
-        );
-        jpDeleteEmployeeLayout.setVerticalGroup(
-            jpDeleteEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jpDeleteEmployeeLayout.createSequentialGroup()
-                .addGap(34, 34, 34)
-                .addGroup(jpDeleteEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel54)
-                    .addGroup(jpDeleteEmployeeLayout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addComponent(jLabel65)
-                        .addGap(0, 0, 0)
-                        .addComponent(edCategory, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jpDeleteEmployeeLayout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addComponent(jLabel66)
-                        .addGap(0, 0, 0)
-                        .addComponent(edEnter, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jpDeleteEmployeeLayout.createSequentialGroup()
-                        .addGap(26, 26, 26)
-                        .addComponent(edSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(20, 20, 20)
-                .addGroup(jpDeleteEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 370, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jpDeleteEmployeeLayout.createSequentialGroup()
-                        .addGap(280, 280, 280)
-                        .addComponent(edDeletebt, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(10, 10, 10)
-                        .addComponent(edBackbt, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))))
-        );
-
-        pnContainer.add(jpDeleteEmployee, "card13");
 
         jpUpdateEmployee.setBackground(new java.awt.Color(242, 231, 220));
         jpUpdateEmployee.setPreferredSize(new java.awt.Dimension(900, 533));
@@ -1075,30 +851,9 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel55.setForeground(new java.awt.Color(100, 19, 19));
         jLabel55.setText("CHỈNH SỬA NHÂN VIÊN");
 
-        jLabel67.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel67.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel67.setText("Tìm kiếm theo");
-
-        jLabel68.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel68.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel68.setText("Nhập thông tin");
-
-        euEnter.setBackground(new java.awt.Color(255, 255, 255));
-        euEnter.setForeground(new java.awt.Color(0, 0, 0));
-        euEnter.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                euEnterActionPerformed(evt);
-            }
-        });
-
-        euSearch.setBackground(new java.awt.Color(0, 0, 0));
-        euSearch.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        euSearch.setForeground(new java.awt.Color(255, 255, 255));
-        euSearch.setText("Tìm");
-
-        jLabel69.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel69.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel69.setForeground(new java.awt.Color(100, 19, 19));
-        jLabel69.setText("Nhập thông tin cần chỉnh sửa");
+        jLabel69.setText("Nhập thông tin nhân viên cần chỉnh sửa");
 
         jLabel70.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel70.setForeground(new java.awt.Color(0, 0, 0));
@@ -1115,7 +870,7 @@ public class AdminDashboard extends javax.swing.JFrame {
 
         jLabel71.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel71.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel71.setText("Tên");
+        jLabel71.setText("Họ và tên");
 
         jLabel72.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel72.setForeground(new java.awt.Color(0, 0, 0));
@@ -1152,28 +907,10 @@ public class AdminDashboard extends javax.swing.JFrame {
             }
         });
 
-        edTable3.setBackground(new java.awt.Color(255, 255, 255));
-        edTable3.setForeground(new java.awt.Color(0, 0, 0));
-        edTable3.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-
-            },
-            new String [] {
-                "ID", "Tên", "Số điện thoại", "Giới tính", "Ngày sinh", "Địa chỉ", "Lương cơ bản", "Ngày vào làm"
-            }
-        ));
-        edTable3.setGridColor(new java.awt.Color(100, 19, 19));
-        edTable3.setSelectionBackground(new java.awt.Color(255, 255, 255));
-        jScrollPane17.setViewportView(edTable3);
-        if (edTable3.getColumnModel().getColumnCount() > 0) {
-            edTable3.getColumnModel().getColumn(2).setResizable(false);
-            edTable3.getColumnModel().getColumn(7).setHeaderValue("Ngày vào làm");
-        }
-
         jComboBox1.setBackground(new java.awt.Color(255, 255, 255));
         jComboBox1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jComboBox1.setForeground(new java.awt.Color(0, 0, 0));
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Nam", "Nữ" }));
 
         jLabel74.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel74.setForeground(new java.awt.Color(0, 0, 0));
@@ -1181,18 +918,22 @@ public class AdminDashboard extends javax.swing.JFrame {
 
         jLabel133.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel133.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel133.setText("Lương");
+        jLabel133.setText("Lương cơ bản");
 
         euNgaysinh.setBackground(new java.awt.Color(255, 255, 255));
         euNgaysinh.setForeground(new java.awt.Color(0, 0, 0));
 
-        jComboBox2.setBackground(new java.awt.Color(255, 255, 255));
-        jComboBox2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jComboBox2.setForeground(new java.awt.Color(0, 0, 0));
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "ID", "Tên", "Số điện thoại", "Giới tính", "Ngày sinh", "Địa chỉ", "Lương cơ bản", "Ngày vào làm" }));
-
         euDiachi1.setBackground(new java.awt.Color(255, 255, 255));
         euDiachi1.setForeground(new java.awt.Color(0, 0, 0));
+
+        jLabel65.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel65.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel65.setText("Vai trò");
+
+        jComboBox5.setBackground(new java.awt.Color(255, 255, 255));
+        jComboBox5.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jComboBox5.setForeground(new java.awt.Color(0, 0, 0));
+        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Admin", "Nhân viên" }));
 
         javax.swing.GroupLayout jpUpdateEmployeeLayout = new javax.swing.GroupLayout(jpUpdateEmployee);
         jpUpdateEmployee.setLayout(jpUpdateEmployeeLayout);
@@ -1200,56 +941,52 @@ public class AdminDashboard extends javax.swing.JFrame {
             jpUpdateEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jpUpdateEmployeeLayout.createSequentialGroup()
                 .addGap(47, 47, 47)
-                .addComponent(jLabel55)
-                .addGap(39, 39, 39)
-                .addGroup(jpUpdateEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel67, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(30, 30, 30)
-                .addGroup(jpUpdateEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel68)
-                    .addComponent(euEnter, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(30, 30, 30)
-                .addComponent(euSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jpUpdateEmployeeLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jScrollPane17, javax.swing.GroupLayout.PREFERRED_SIZE, 800, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jLabel55))
             .addGroup(jpUpdateEmployeeLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
                 .addComponent(jLabel69))
             .addGroup(jpUpdateEmployeeLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
                 .addComponent(jLabel70)
-                .addGap(126, 126, 126)
+                .addGap(236, 236, 236)
+                .addComponent(jLabel72))
+            .addGroup(jpUpdateEmployeeLayout.createSequentialGroup()
+                .addGap(50, 50, 50)
+                .addComponent(euID, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(150, 150, 150)
+                .addComponent(euNgaysinh, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jpUpdateEmployeeLayout.createSequentialGroup()
+                .addGap(50, 50, 50)
                 .addComponent(jLabel71)
-                .addGap(117, 117, 117)
+                .addGap(190, 190, 190)
+                .addComponent(jLabel75))
+            .addGroup(jpUpdateEmployeeLayout.createSequentialGroup()
+                .addGap(50, 50, 50)
+                .addComponent(euName, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(50, 50, 50)
+                .addComponent(euDiachi1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jpUpdateEmployeeLayout.createSequentialGroup()
+                .addGap(50, 50, 50)
                 .addComponent(jLabel73)
-                .addGap(69, 69, 69)
-                .addComponent(jLabel74))
-            .addGroup(jpUpdateEmployeeLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(euID, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(euName, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(euPhone, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(25, 25, 25)
-                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jpUpdateEmployeeLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jLabel72)
-                .addGap(78, 78, 78)
-                .addComponent(jLabel75)
-                .addGap(97, 97, 97)
+                .addGap(169, 169, 169)
                 .addComponent(jLabel133))
             .addGroup(jpUpdateEmployeeLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
-                .addComponent(euNgaysinh, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(euDiachi1, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(euSalary, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(225, 225, 225)
+                .addComponent(euPhone, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(50, 50, 50)
+                .addComponent(euSalary, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jpUpdateEmployeeLayout.createSequentialGroup()
+                .addGap(50, 50, 50)
+                .addComponent(jLabel74)
+                .addGap(197, 197, 197)
+                .addComponent(jLabel65))
+            .addGroup(jpUpdateEmployeeLayout.createSequentialGroup()
+                .addGap(50, 50, 50)
+                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(150, 150, 150)
+                .addComponent(jComboBox5, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jpUpdateEmployeeLayout.createSequentialGroup()
+                .addGap(670, 670, 670)
                 .addComponent(euSavebt, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(10, 10, 10)
                 .addComponent(euBackbt, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -1258,44 +995,39 @@ public class AdminDashboard extends javax.swing.JFrame {
             jpUpdateEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jpUpdateEmployeeLayout.createSequentialGroup()
                 .addGap(37, 37, 37)
-                .addGroup(jpUpdateEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel55)
-                    .addGroup(jpUpdateEmployeeLayout.createSequentialGroup()
-                        .addGap(3, 3, 3)
-                        .addComponent(jLabel67)
-                        .addGap(0, 0, 0)
-                        .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jpUpdateEmployeeLayout.createSequentialGroup()
-                        .addGap(3, 3, 3)
-                        .addComponent(jLabel68)
-                        .addGap(0, 0, 0)
-                        .addComponent(euEnter, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jpUpdateEmployeeLayout.createSequentialGroup()
-                        .addGap(23, 23, 23)
-                        .addComponent(euSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(20, 20, 20)
-                .addComponent(jScrollPane17, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(10, 10, 10)
+                .addComponent(jLabel55)
+                .addGap(1, 1, 1)
                 .addComponent(jLabel69)
+                .addGap(30, 30, 30)
                 .addGroup(jpUpdateEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel70)
-                    .addComponent(jLabel71)
-                    .addComponent(jLabel73)
-                    .addComponent(jLabel74))
+                    .addComponent(jLabel72))
                 .addGroup(jpUpdateEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(euID, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(euName, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(euPhone, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(10, 10, 10)
+                    .addComponent(euNgaysinh, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(20, 20, 20)
                 .addGroup(jpUpdateEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel72)
-                    .addComponent(jLabel75)
+                    .addComponent(jLabel71)
+                    .addComponent(jLabel75))
+                .addGroup(jpUpdateEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(euName, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(euDiachi1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(20, 20, 20)
+                .addGroup(jpUpdateEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel73)
                     .addComponent(jLabel133))
                 .addGroup(jpUpdateEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(euNgaysinh, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(euDiachi1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(euSalary, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(euPhone, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(euSalary, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(30, 30, 30)
+                .addGroup(jpUpdateEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel74)
+                    .addComponent(jLabel65))
+                .addGroup(jpUpdateEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jComboBox5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(10, 10, 10)
+                .addGroup(jpUpdateEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(euSavebt, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(euBackbt, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
@@ -1466,24 +1198,20 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel81.setText("Mã sản phẩm");
 
         eaID1.setBackground(new java.awt.Color(255, 255, 255));
+        eaID1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         eaID1.setForeground(new java.awt.Color(0, 0, 0));
 
         jLabel82.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel82.setForeground(new java.awt.Color(0, 0, 0));
         jLabel82.setText("Loại sản phẩm");
 
-        eaName1.setBackground(new java.awt.Color(255, 255, 255));
-        eaName1.setForeground(new java.awt.Color(0, 0, 0));
-
         eaPhone1.setBackground(new java.awt.Color(255, 255, 255));
+        eaPhone1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         eaPhone1.setForeground(new java.awt.Color(0, 0, 0));
 
         jLabel84.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel84.setForeground(new java.awt.Color(0, 0, 0));
         jLabel84.setText("Giá");
-
-        eaWorkDate1.setBackground(new java.awt.Color(255, 255, 255));
-        eaWorkDate1.setForeground(new java.awt.Color(0, 0, 0));
 
         jLabel85.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel85.setForeground(new java.awt.Color(0, 0, 0));
@@ -1494,9 +1222,11 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel87.setText("Tên sản phẩm");
 
         eaUsername1.setBackground(new java.awt.Color(255, 255, 255));
+        eaUsername1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         eaUsername1.setForeground(new java.awt.Color(0, 0, 0));
 
         eaPassword1.setBackground(new java.awt.Color(255, 255, 255));
+        eaPassword1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         eaPassword1.setForeground(new java.awt.Color(0, 0, 0));
 
         jLabel88.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -1546,56 +1276,71 @@ public class AdminDashboard extends javax.swing.JFrame {
             }
         });
 
+        jComboBox2.setBackground(new java.awt.Color(255, 255, 255));
+        jComboBox2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jComboBox2.setForeground(new java.awt.Color(0, 0, 0));
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Cà phê", "Trà", "Bánh" }));
+
+        jComboBox3.setBackground(new java.awt.Color(255, 255, 255));
+        jComboBox3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jComboBox3.setForeground(new java.awt.Color(0, 0, 0));
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "còn", "hết" }));
+
         javax.swing.GroupLayout jpAddProductLayout = new javax.swing.GroupLayout(jpAddProduct);
         jpAddProduct.setLayout(jpAddProductLayout);
         jpAddProductLayout.setHorizontalGroup(
             jpAddProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jpAddProductLayout.createSequentialGroup()
-                .addGap(49, 49, 49)
-                .addComponent(jLabel80))
+                .addGroup(jpAddProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jpAddProductLayout.createSequentialGroup()
+                        .addGap(49, 49, 49)
+                        .addComponent(jLabel80))
+                    .addGroup(jpAddProductLayout.createSequentialGroup()
+                        .addGap(49, 49, 49)
+                        .addComponent(jLabel90))
+                    .addGroup(jpAddProductLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(jLabel81)
+                        .addGap(175, 175, 175)
+                        .addComponent(jLabel85))
+                    .addGroup(jpAddProductLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(eaID1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(160, 160, 160)
+                        .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jpAddProductLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(jLabel82)
+                        .addGap(170, 170, 170)
+                        .addComponent(jLabel134))
+                    .addGroup(jpAddProductLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(60, 60, 60)
+                        .addComponent(eaPassword1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jpAddProductLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(jLabel87)
+                        .addGap(173, 173, 173)
+                        .addComponent(jLabel88))
+                    .addGroup(jpAddProductLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(eaUsername1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(60, 60, 60)
+                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jpAddProductLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(jLabel84))
+                    .addGroup(jpAddProductLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(eaPhone1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(jpAddProductLayout.createSequentialGroup()
-                .addGap(49, 49, 49)
-                .addComponent(jLabel90))
-            .addGroup(jpAddProductLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jLabel81)
-                .addGap(175, 175, 175)
-                .addComponent(jLabel85))
-            .addGroup(jpAddProductLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(eaID1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(60, 60, 60)
-                .addComponent(eaWorkDate1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jpAddProductLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jLabel82)
-                .addGap(170, 170, 170)
-                .addComponent(jLabel134))
-            .addGroup(jpAddProductLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(eaName1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(60, 60, 60)
-                .addComponent(eaPassword1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jpAddProductLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jLabel87)
-                .addGap(183, 183, 183)
-                .addComponent(jLabel88))
-            .addGroup(jpAddProductLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(eaUsername1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(60, 60, 60)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jpAddProductLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jLabel84))
-            .addGroup(jpAddProductLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(eaPhone1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(390, 390, 390)
+                .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(eaAddbt1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
-                .addComponent(eaBackbt1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(10, 10, 10)
+                .addComponent(eaBackbt1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(59, 59, 59))
         );
         jpAddProductLayout.setVerticalGroup(
             jpAddProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1610,13 +1355,13 @@ public class AdminDashboard extends javax.swing.JFrame {
                     .addComponent(jLabel85))
                 .addGroup(jpAddProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(eaID1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(eaWorkDate1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(20, 20, 20)
                 .addGroup(jpAddProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel82)
                     .addComponent(jLabel134))
                 .addGroup(jpAddProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(eaName1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(eaPassword1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(20, 20, 20)
                 .addGroup(jpAddProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1627,136 +1372,16 @@ public class AdminDashboard extends javax.swing.JFrame {
                     .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(20, 20, 20)
                 .addComponent(jLabel84)
+                .addGap(0, 0, 0)
+                .addComponent(eaPhone1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(26, 26, 26)
                 .addGroup(jpAddProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(eaPhone1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(eaAddbt1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(eaBackbt1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(eaBackbt1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
         );
 
         pnContainer.add(jpAddProduct, "card12");
-
-        jpDeleteProduct.setBackground(new java.awt.Color(242, 231, 220));
-        jpDeleteProduct.setPreferredSize(new java.awt.Dimension(900, 533));
-
-        jLabel91.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel91.setForeground(new java.awt.Color(100, 19, 19));
-        jLabel91.setText("XOÁ SẢN PHẨM");
-
-        jLabel92.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel92.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel92.setText("Tìm kiếm theo ");
-
-        edCategory1.setBackground(new java.awt.Color(255, 255, 255));
-        edCategory1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        edCategory1.setForeground(new java.awt.Color(0, 0, 0));
-        edCategory1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "ID", "Loại", "Tên", "Giá", "Tình trạng" }));
-
-        jLabel93.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel93.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel93.setText("Nhập thông tin");
-
-        edEnter1.setBackground(new java.awt.Color(255, 255, 255));
-        edEnter1.setForeground(new java.awt.Color(0, 0, 0));
-        edEnter1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                edEnter1ActionPerformed(evt);
-            }
-        });
-
-        edSearch1.setBackground(new java.awt.Color(0, 0, 0));
-        edSearch1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        edSearch1.setForeground(new java.awt.Color(255, 255, 255));
-        edSearch1.setText("Tìm");
-
-        edDeletebt1.setBackground(new java.awt.Color(100, 19, 19));
-        edDeletebt1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        edDeletebt1.setForeground(new java.awt.Color(255, 255, 255));
-        edDeletebt1.setText("Xoá");
-
-        edBackbt1.setBackground(new java.awt.Color(255, 255, 255));
-        edBackbt1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        edBackbt1.setForeground(new java.awt.Color(0, 0, 0));
-        edBackbt1.setText("Huỷ");
-        edBackbt1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                edBackbt1MouseClicked(evt);
-            }
-        });
-        edBackbt1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                edBackbt1ActionPerformed(evt);
-            }
-        });
-
-        emTable3.setBackground(new java.awt.Color(255, 255, 255));
-        emTable3.setForeground(new java.awt.Color(0, 0, 0));
-        emTable3.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-
-            },
-            new String [] {
-                "ID", "Loại", "Tên", "Giá", "Tình trạng", "Mô tả", "Hình ảnh"
-            }
-        ));
-        emTable3.setGridColor(new java.awt.Color(100, 19, 19));
-        emTable3.setSelectionBackground(new java.awt.Color(255, 255, 255));
-        jScrollPane18.setViewportView(emTable3);
-
-        javax.swing.GroupLayout jpDeleteProductLayout = new javax.swing.GroupLayout(jpDeleteProduct);
-        jpDeleteProduct.setLayout(jpDeleteProductLayout);
-        jpDeleteProductLayout.setHorizontalGroup(
-            jpDeleteProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jpDeleteProductLayout.createSequentialGroup()
-                .addGap(49, 49, 49)
-                .addComponent(jLabel91)
-                .addGap(56, 56, 56)
-                .addGroup(jpDeleteProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel92)
-                    .addComponent(edCategory1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(30, 30, 30)
-                .addGroup(jpDeleteProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel93)
-                    .addComponent(edEnter1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(30, 30, 30)
-                .addComponent(edSearch1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jpDeleteProductLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jScrollPane18, javax.swing.GroupLayout.PREFERRED_SIZE, 670, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(50, 50, 50)
-                .addGroup(jpDeleteProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(edDeletebt1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(edBackbt1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
-        );
-        jpDeleteProductLayout.setVerticalGroup(
-            jpDeleteProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jpDeleteProductLayout.createSequentialGroup()
-                .addGap(34, 34, 34)
-                .addGroup(jpDeleteProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel91)
-                    .addGroup(jpDeleteProductLayout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addComponent(jLabel92)
-                        .addGap(0, 0, 0)
-                        .addComponent(edCategory1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jpDeleteProductLayout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addComponent(jLabel93)
-                        .addGap(0, 0, 0)
-                        .addComponent(edEnter1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jpDeleteProductLayout.createSequentialGroup()
-                        .addGap(26, 26, 26)
-                        .addComponent(edSearch1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(30, 30, 30)
-                .addGroup(jpDeleteProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane18, javax.swing.GroupLayout.PREFERRED_SIZE, 360, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jpDeleteProductLayout.createSequentialGroup()
-                        .addGap(270, 270, 270)
-                        .addComponent(edDeletebt1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(10, 10, 10)
-                        .addComponent(edBackbt1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))))
-        );
-
-        pnContainer.add(jpDeleteProduct, "card13");
 
         jpUpdateProduct.setBackground(new java.awt.Color(242, 231, 220));
         jpUpdateProduct.setPreferredSize(new java.awt.Dimension(900, 533));
@@ -1765,51 +1390,9 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel94.setForeground(new java.awt.Color(100, 19, 19));
         jLabel94.setText("CHỈNH SỬA SẢN PHẨM");
 
-        jLabel97.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel97.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel97.setForeground(new java.awt.Color(100, 19, 19));
-        jLabel97.setText("Nhập thông tin cần chỉnh sửa");
-
-        jLabel98.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel98.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel98.setText("Mã sản phẩm");
-
-        euID1.setBackground(new java.awt.Color(255, 255, 255));
-        euID1.setForeground(new java.awt.Color(0, 0, 0));
-
-        euName1.setBackground(new java.awt.Color(255, 255, 255));
-        euName1.setForeground(new java.awt.Color(0, 0, 0));
-
-        euSex1.setBackground(new java.awt.Color(255, 255, 255));
-        euSex1.setForeground(new java.awt.Color(0, 0, 0));
-
-        euPhone1.setBackground(new java.awt.Color(255, 255, 255));
-        euPhone1.setForeground(new java.awt.Color(0, 0, 0));
-
-        euWorkDate1.setBackground(new java.awt.Color(255, 255, 255));
-        euWorkDate1.setForeground(new java.awt.Color(0, 0, 0));
-
-        jLabel99.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel99.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel99.setText("Loại sản phẩm");
-
-        jLabel100.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel100.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel100.setText("Tên sản phẩm");
-
-        jLabel101.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel101.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel101.setText("Giá");
-
-        jLabel102.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel102.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel102.setText("Tình trạng");
-
-        euSalary1.setBackground(new java.awt.Color(255, 255, 255));
-        euSalary1.setForeground(new java.awt.Color(0, 0, 0));
-
-        jLabel103.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel103.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel103.setText("Mô tả");
+        jLabel97.setText("Nhập thông tin sản phẩm cần chỉnh sửa");
 
         euSavebt1.setBackground(new java.awt.Color(100, 19, 19));
         euSavebt1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -1831,163 +1414,158 @@ public class AdminDashboard extends javax.swing.JFrame {
             }
         });
 
-        emTable4.setBackground(new java.awt.Color(255, 255, 255));
-        emTable4.setForeground(new java.awt.Color(0, 0, 0));
-        emTable4.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
+        jLabel91.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel91.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel91.setText("Mã sản phẩm");
 
-            },
-            new String [] {
-                "ID", "Loại", "Tên", "Giá", "Tình trạng", "Mô tả", "Hình ảnh"
+        eaID4.setBackground(new java.awt.Color(255, 255, 255));
+        eaID4.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        eaID4.setForeground(new java.awt.Color(0, 0, 0));
+
+        jLabel92.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel92.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel92.setText("Loại sản phẩm");
+
+        jComboBox6.setBackground(new java.awt.Color(255, 255, 255));
+        jComboBox6.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jComboBox6.setForeground(new java.awt.Color(0, 0, 0));
+        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Cà phê", "Trà", "Bánh" }));
+
+        jLabel93.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel93.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel93.setText("Tên sản phẩm");
+
+        eaUsername4.setBackground(new java.awt.Color(255, 255, 255));
+        eaUsername4.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        eaUsername4.setForeground(new java.awt.Color(0, 0, 0));
+
+        jLabel118.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel118.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel118.setText("Giá");
+
+        eaPhone4.setBackground(new java.awt.Color(255, 255, 255));
+        eaPhone4.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        eaPhone4.setForeground(new java.awt.Color(0, 0, 0));
+
+        jButton3.setBackground(new java.awt.Color(255, 255, 255));
+        jButton3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(182, 170, 159));
+        jButton3.setText("Browser");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
             }
-        ));
-        emTable4.setGridColor(new java.awt.Color(100, 19, 19));
-        emTable4.setSelectionBackground(new java.awt.Color(255, 255, 255));
-        jScrollPane19.setViewportView(emTable4);
+        });
 
-        edCategory3.setBackground(new java.awt.Color(255, 255, 255));
-        edCategory3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        edCategory3.setForeground(new java.awt.Color(0, 0, 0));
-        edCategory3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "ID", "Loại", "Tên", "Giá", "Tình trạng" }));
+        jLabel119.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel119.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel119.setText("Hình ảnh");
+
+        eaPassword2.setBackground(new java.awt.Color(255, 255, 255));
+        eaPassword2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        eaPassword2.setForeground(new java.awt.Color(0, 0, 0));
 
         jLabel135.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel135.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel135.setText("Tìm kiếm theo ");
+        jLabel135.setText("Mô tả");
 
-        jLabel136.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel136.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel136.setText("Nhập thông tin");
+        jComboBox7.setBackground(new java.awt.Color(255, 255, 255));
+        jComboBox7.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jComboBox7.setForeground(new java.awt.Color(0, 0, 0));
+        jComboBox7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "còn", "hết" }));
 
-        edEnter3.setBackground(new java.awt.Color(255, 255, 255));
-        edEnter3.setForeground(new java.awt.Color(0, 0, 0));
-        edEnter3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                edEnter3ActionPerformed(evt);
-            }
-        });
-
-        edSearch3.setBackground(new java.awt.Color(0, 0, 0));
-        edSearch3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        edSearch3.setForeground(new java.awt.Color(255, 255, 255));
-        edSearch3.setText("Tìm");
-
-        jLabel137.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel137.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel137.setText("Hình ảnh");
-
-        jButton2.setBackground(new java.awt.Color(255, 255, 255));
-        jButton2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(182, 170, 159));
-        jButton2.setText("Browser");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
-            }
-        });
+        jLabel120.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel120.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel120.setText("Tình trạng");
 
         javax.swing.GroupLayout jpUpdateProductLayout = new javax.swing.GroupLayout(jpUpdateProduct);
         jpUpdateProduct.setLayout(jpUpdateProductLayout);
         jpUpdateProductLayout.setHorizontalGroup(
             jpUpdateProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jpUpdateProductLayout.createSequentialGroup()
-                .addGap(47, 47, 47)
-                .addComponent(jLabel94)
-                .addGap(45, 45, 45)
                 .addGroup(jpUpdateProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel135)
-                    .addComponent(edCategory3, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(30, 30, 30)
-                .addGroup(jpUpdateProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel136)
-                    .addComponent(edEnter3, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(30, 30, 30)
-                .addComponent(edSearch3, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jpUpdateProductLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jScrollPane19, javax.swing.GroupLayout.PREFERRED_SIZE, 800, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jpUpdateProductLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jLabel97))
-            .addGroup(jpUpdateProductLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jLabel98)
-                .addGap(55, 55, 55)
-                .addComponent(jLabel99)
-                .addGap(50, 50, 50)
-                .addComponent(jLabel100)
-                .addGap(53, 53, 53)
-                .addComponent(jLabel101))
-            .addGroup(jpUpdateProductLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(euID1, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(euName1, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(euSex1, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(euPhone1, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jpUpdateProductLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jLabel102)
-                .addGap(77, 77, 77)
-                .addComponent(jLabel103)
-                .addGap(103, 103, 103)
-                .addComponent(jLabel137))
-            .addGroup(jpUpdateProductLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(euWorkDate1, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(euSalary1, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(225, 225, 225)
-                .addComponent(euSavebt1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(10, 10, 10)
-                .addComponent(euBackbt1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jpUpdateProductLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(jLabel91)
+                        .addGap(175, 175, 175)
+                        .addComponent(jLabel120))
+                    .addGroup(jpUpdateProductLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(eaID4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(160, 160, 160)
+                        .addComponent(jComboBox7, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jpUpdateProductLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(jLabel92)
+                        .addGap(170, 170, 170)
+                        .addComponent(jLabel135))
+                    .addGroup(jpUpdateProductLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(jComboBox6, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(60, 60, 60)
+                        .addComponent(eaPassword2, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jpUpdateProductLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(jLabel93)
+                        .addGap(173, 173, 173)
+                        .addComponent(jLabel119))
+                    .addGroup(jpUpdateProductLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(eaUsername4, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(60, 60, 60)
+                        .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jpUpdateProductLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(jLabel118))
+                    .addGroup(jpUpdateProductLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(eaPhone4, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jpUpdateProductLayout.createSequentialGroup()
+                        .addGap(680, 680, 680)
+                        .addComponent(euSavebt1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(10, 10, 10)
+                        .addComponent(euBackbt1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jpUpdateProductLayout.createSequentialGroup()
+                        .addGap(47, 47, 47)
+                        .addGroup(jpUpdateProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel97)
+                            .addComponent(jLabel94))))
+                .addGap(50, 50, 50))
         );
         jpUpdateProductLayout.setVerticalGroup(
             jpUpdateProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jpUpdateProductLayout.createSequentialGroup()
                 .addGap(37, 37, 37)
-                .addGroup(jpUpdateProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel94)
-                    .addGroup(jpUpdateProductLayout.createSequentialGroup()
-                        .addGap(3, 3, 3)
-                        .addComponent(jLabel135)
-                        .addGap(0, 0, 0)
-                        .addComponent(edCategory3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jpUpdateProductLayout.createSequentialGroup()
-                        .addGap(3, 3, 3)
-                        .addComponent(jLabel136)
-                        .addGap(0, 0, 0)
-                        .addComponent(edEnter3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jpUpdateProductLayout.createSequentialGroup()
-                        .addGap(23, 23, 23)
-                        .addComponent(edSearch3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(20, 20, 20)
-                .addComponent(jScrollPane19, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(10, 10, 10)
+                .addComponent(jLabel94)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel97)
+                .addGap(25, 25, 25)
+                .addGroup(jpUpdateProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel91)
+                    .addComponent(jLabel120))
+                .addGroup(jpUpdateProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(eaID4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jComboBox7, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(20, 20, 20)
                 .addGroup(jpUpdateProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel98)
-                    .addComponent(jLabel99)
-                    .addComponent(jLabel100)
-                    .addComponent(jLabel101))
+                    .addComponent(jLabel92)
+                    .addComponent(jLabel135))
                 .addGroup(jpUpdateProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(euID1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(euName1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(euSex1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(euPhone1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(10, 10, 10)
+                    .addComponent(jComboBox6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(eaPassword2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(20, 20, 20)
                 .addGroup(jpUpdateProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel102)
-                    .addComponent(jLabel103)
-                    .addComponent(jLabel137))
+                    .addComponent(jLabel93)
+                    .addComponent(jLabel119))
                 .addGroup(jpUpdateProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(euWorkDate1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(euSalary1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(eaUsername4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(20, 20, 20)
+                .addComponent(jLabel118)
+                .addGap(0, 0, 0)
+                .addComponent(eaPhone4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(30, 30, 30)
+                .addGroup(jpUpdateProductLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(euSavebt1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(euBackbt1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
@@ -2158,16 +1736,15 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel108.setText("Mã khuyến mãi");
 
         eaID2.setBackground(new java.awt.Color(255, 255, 255));
+        eaID2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         eaID2.setForeground(new java.awt.Color(0, 0, 0));
 
         jLabel109.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel109.setForeground(new java.awt.Color(0, 0, 0));
         jLabel109.setText("Loại khuyến mãi");
 
-        eaName2.setBackground(new java.awt.Color(255, 255, 255));
-        eaName2.setForeground(new java.awt.Color(0, 0, 0));
-
         eaPhone2.setBackground(new java.awt.Color(255, 255, 255));
+        eaPhone2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         eaPhone2.setForeground(new java.awt.Color(0, 0, 0));
 
         jLabel111.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -2175,6 +1752,7 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel111.setText("% Giảm giá");
 
         vaNgaykt.setBackground(new java.awt.Color(255, 255, 255));
+        vaNgaykt.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         vaNgaykt.setForeground(new java.awt.Color(0, 0, 0));
 
         jLabel112.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -2186,6 +1764,7 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel114.setText("Điều kiện khuyến mãi");
 
         eaUsername2.setBackground(new java.awt.Color(255, 255, 255));
+        eaUsername2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         eaUsername2.setForeground(new java.awt.Color(0, 0, 0));
 
         jLabel115.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -2205,7 +1784,7 @@ public class AdminDashboard extends javax.swing.JFrame {
         eaBackbt2.setBackground(new java.awt.Color(255, 255, 255));
         eaBackbt2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         eaBackbt2.setForeground(new java.awt.Color(0, 0, 0));
-        eaBackbt2.setText("Back");
+        eaBackbt2.setText("Huỷ");
         eaBackbt2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 eaBackbt2MouseClicked(evt);
@@ -2225,11 +1804,17 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel138.setForeground(new java.awt.Color(0, 0, 0));
         jLabel138.setText("Ngày bắt đầu KM");
 
-        eaWorkDate4.setBackground(new java.awt.Color(255, 255, 255));
-        eaWorkDate4.setForeground(new java.awt.Color(0, 0, 0));
-
         vaNgaybd.setBackground(new java.awt.Color(255, 255, 255));
+        vaNgaybd.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         vaNgaybd.setForeground(new java.awt.Color(0, 0, 0));
+
+        jComboBox8.setBackground(new java.awt.Color(255, 255, 255));
+        jComboBox8.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jComboBox8.setForeground(new java.awt.Color(0, 0, 0));
+        jComboBox8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Giảm giá", "Tích điểm" }));
+
+        jSpinner1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jSpinner1.setModel(new javax.swing.SpinnerNumberModel(0, 0, null, 1));
 
         javax.swing.GroupLayout jpAddVoucherLayout = new javax.swing.GroupLayout(jpAddVoucher);
         jpAddVoucher.setLayout(jpAddVoucherLayout);
@@ -2248,9 +1833,9 @@ public class AdminDashboard extends javax.swing.JFrame {
                 .addComponent(jLabel112))
             .addGroup(jpAddVoucherLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
-                .addComponent(eaID2, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(50, 50, 50)
-                .addComponent(eaWorkDate4, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(eaID2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(150, 150, 150)
+                .addComponent(jSpinner1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(jpAddVoucherLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
                 .addComponent(jLabel109)
@@ -2258,8 +1843,8 @@ public class AdminDashboard extends javax.swing.JFrame {
                 .addComponent(jLabel138))
             .addGroup(jpAddVoucherLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
-                .addComponent(eaName2, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(50, 50, 50)
+                .addComponent(jComboBox8, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(100, 100, 100)
                 .addComponent(vaNgaybd, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(jpAddVoucherLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
@@ -2276,10 +1861,11 @@ public class AdminDashboard extends javax.swing.JFrame {
                 .addComponent(jLabel111))
             .addGroup(jpAddVoucherLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
-                .addComponent(eaPhone2, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(400, 400, 400)
+                .addComponent(eaPhone2, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jpAddVoucherLayout.createSequentialGroup()
+                .addGap(670, 670, 670)
                 .addComponent(eaAddbt2, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
+                .addGap(10, 10, 10)
                 .addComponent(eaBackbt2, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         jpAddVoucherLayout.setVerticalGroup(
@@ -2295,13 +1881,13 @@ public class AdminDashboard extends javax.swing.JFrame {
                     .addComponent(jLabel112))
                 .addGroup(jpAddVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(eaID2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(eaWorkDate4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jSpinner1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(20, 20, 20)
                 .addGroup(jpAddVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel109)
                     .addComponent(jLabel138))
                 .addGroup(jpAddVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(eaName2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jComboBox8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(vaNgaybd, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(20, 20, 20)
                 .addGroup(jpAddVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2312,136 +1898,15 @@ public class AdminDashboard extends javax.swing.JFrame {
                     .addComponent(vaNgaykt, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(20, 20, 20)
                 .addComponent(jLabel111)
+                .addGap(0, 0, 0)
+                .addComponent(eaPhone2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(20, 20, 20)
                 .addGroup(jpAddVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(eaPhone2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(eaAddbt2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(eaBackbt2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
         pnContainer.add(jpAddVoucher, "card12");
-
-        jpDeleteVoucher.setBackground(new java.awt.Color(242, 231, 220));
-        jpDeleteVoucher.setPreferredSize(new java.awt.Dimension(900, 533));
-
-        jLabel118.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel118.setForeground(new java.awt.Color(100, 19, 19));
-        jLabel118.setText("XOÁ KHUYẾN MÃI");
-
-        jLabel119.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel119.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel119.setText("Tìm kiếm theo ");
-
-        edCategory2.setBackground(new java.awt.Color(255, 255, 255));
-        edCategory2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        edCategory2.setForeground(new java.awt.Color(0, 0, 0));
-        edCategory2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Loại KM", "% KM", "Ngày bắt đầu", "Ngày kết thúc" }));
-
-        jLabel120.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel120.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel120.setText("Nhập thông tin");
-
-        edEnter2.setBackground(new java.awt.Color(255, 255, 255));
-        edEnter2.setForeground(new java.awt.Color(0, 0, 0));
-        edEnter2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                edEnter2ActionPerformed(evt);
-            }
-        });
-
-        edSearch2.setBackground(new java.awt.Color(0, 0, 0));
-        edSearch2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        edSearch2.setForeground(new java.awt.Color(255, 255, 255));
-        edSearch2.setText("Tìm");
-
-        edDeletebt2.setBackground(new java.awt.Color(100, 19, 19));
-        edDeletebt2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        edDeletebt2.setForeground(new java.awt.Color(255, 255, 255));
-        edDeletebt2.setText("Xoá");
-
-        edBackbt2.setBackground(new java.awt.Color(255, 255, 255));
-        edBackbt2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        edBackbt2.setForeground(new java.awt.Color(0, 0, 0));
-        edBackbt2.setText("Huỷ");
-        edBackbt2.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                edBackbt2MouseClicked(evt);
-            }
-        });
-        edBackbt2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                edBackbt2ActionPerformed(evt);
-            }
-        });
-
-        emTable5.setBackground(new java.awt.Color(255, 255, 255));
-        emTable5.setForeground(new java.awt.Color(0, 0, 0));
-        emTable5.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-
-            },
-            new String [] {
-                "Mã KM", "Loại KM", "Điều kiện", "% KM", "Số lượng KM", "Ngày bắt đầu", "Ngày kết thúc"
-            }
-        ));
-        emTable5.setGridColor(new java.awt.Color(100, 19, 19));
-        emTable5.setSelectionBackground(new java.awt.Color(255, 255, 255));
-        jScrollPane20.setViewportView(emTable5);
-
-        javax.swing.GroupLayout jpDeleteVoucherLayout = new javax.swing.GroupLayout(jpDeleteVoucher);
-        jpDeleteVoucher.setLayout(jpDeleteVoucherLayout);
-        jpDeleteVoucherLayout.setHorizontalGroup(
-            jpDeleteVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jpDeleteVoucherLayout.createSequentialGroup()
-                .addGap(49, 49, 49)
-                .addComponent(jLabel118)
-                .addGap(43, 43, 43)
-                .addGroup(jpDeleteVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel119)
-                    .addComponent(edCategory2, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(20, 20, 20)
-                .addGroup(jpDeleteVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel120)
-                    .addComponent(edEnter2, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(20, 20, 20)
-                .addComponent(edSearch2, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jpDeleteVoucherLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jScrollPane20, javax.swing.GroupLayout.PREFERRED_SIZE, 660, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(60, 60, 60)
-                .addGroup(jpDeleteVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(edDeletebt2, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(edBackbt2, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
-        );
-        jpDeleteVoucherLayout.setVerticalGroup(
-            jpDeleteVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jpDeleteVoucherLayout.createSequentialGroup()
-                .addGap(34, 34, 34)
-                .addGroup(jpDeleteVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel118)
-                    .addGroup(jpDeleteVoucherLayout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addComponent(jLabel119)
-                        .addGap(0, 0, 0)
-                        .addComponent(edCategory2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jpDeleteVoucherLayout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addComponent(jLabel120)
-                        .addGap(0, 0, 0)
-                        .addComponent(edEnter2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jpDeleteVoucherLayout.createSequentialGroup()
-                        .addGap(26, 26, 26)
-                        .addComponent(edSearch2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(30, 30, 30)
-                .addGroup(jpDeleteVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane20, javax.swing.GroupLayout.PREFERRED_SIZE, 360, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jpDeleteVoucherLayout.createSequentialGroup()
-                        .addGap(270, 270, 270)
-                        .addComponent(edDeletebt2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(10, 10, 10)
-                        .addComponent(edBackbt2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))))
-        );
-
-        pnContainer.add(jpDeleteVoucher, "card13");
 
         jpUpdateVoucher.setBackground(new java.awt.Color(242, 231, 220));
         jpUpdateVoucher.setPreferredSize(new java.awt.Dimension(900, 533));
@@ -2449,49 +1914,6 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel121.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel121.setForeground(new java.awt.Color(100, 19, 19));
         jLabel121.setText("CHỈNH SỬA KHUYẾN MÃI");
-
-        jLabel124.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel124.setForeground(new java.awt.Color(100, 19, 19));
-        jLabel124.setText("Nhập thông tin cần chỉnh sửa");
-
-        jLabel125.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel125.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel125.setText("Mã khuyến mãi");
-
-        euID2.setBackground(new java.awt.Color(255, 255, 255));
-        euID2.setForeground(new java.awt.Color(0, 0, 0));
-
-        euName2.setBackground(new java.awt.Color(255, 255, 255));
-        euName2.setForeground(new java.awt.Color(0, 0, 0));
-
-        euSex2.setBackground(new java.awt.Color(255, 255, 255));
-        euSex2.setForeground(new java.awt.Color(0, 0, 0));
-
-        euPhone2.setBackground(new java.awt.Color(255, 255, 255));
-        euPhone2.setForeground(new java.awt.Color(0, 0, 0));
-
-        vuNgaykt.setBackground(new java.awt.Color(255, 255, 255));
-        vuNgaykt.setForeground(new java.awt.Color(0, 0, 0));
-
-        jLabel126.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel126.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel126.setText("Loại khuyến mãi");
-
-        jLabel127.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel127.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel127.setText("Điều kiện");
-
-        jLabel128.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel128.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel128.setText("% Giảm giá");
-
-        jLabel129.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel129.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel129.setText("Số lượng");
-
-        jLabel130.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel130.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel130.setText("Ngày kết thúc KM ");
 
         euSavebt2.setBackground(new java.awt.Color(100, 19, 19));
         euSavebt2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -2513,55 +1935,60 @@ public class AdminDashboard extends javax.swing.JFrame {
             }
         });
 
-        emTable6.setBackground(new java.awt.Color(255, 255, 255));
-        emTable6.setForeground(new java.awt.Color(0, 0, 0));
-        emTable6.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
+        jLabel136.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel136.setForeground(new java.awt.Color(100, 19, 19));
+        jLabel136.setText("Nhập thông tin khuyến mãi cần chỉnh sửa");
 
-            },
-            new String [] {
-                "Mã KM", "Loại KM", "Điều kiện", "% KM", "Số lượng KM", "Ngày bắt đầu", "Ngày kết thúc"
-            }
-        ));
-        emTable6.setGridColor(new java.awt.Color(100, 19, 19));
-        emTable6.setSelectionBackground(new java.awt.Color(255, 255, 255));
-        jScrollPane21.setViewportView(emTable6);
+        eaID5.setBackground(new java.awt.Color(255, 255, 255));
+        eaID5.setForeground(new java.awt.Color(0, 0, 0));
 
-        edCategory4.setBackground(new java.awt.Color(255, 255, 255));
-        edCategory4.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        edCategory4.setForeground(new java.awt.Color(0, 0, 0));
-        edCategory4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Loại KM", "% KM", "Ngày bắt đầu", "Ngày kết thúc" }));
+        jLabel137.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel137.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel137.setText("Loại khuyến mãi");
 
-        jLabel139.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel139.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel139.setText("Tìm kiếm theo ");
+        jComboBox9.setBackground(new java.awt.Color(255, 255, 255));
+        jComboBox9.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jComboBox9.setForeground(new java.awt.Color(0, 0, 0));
+        jComboBox9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Giảm giá", "Tích điểm" }));
 
-        jLabel140.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel140.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel140.setText("Nhập thông tin");
+        jLabel147.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel147.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel147.setText("Điều kiện khuyến mãi");
 
-        edEnter4.setBackground(new java.awt.Color(255, 255, 255));
-        edEnter4.setForeground(new java.awt.Color(0, 0, 0));
-        edEnter4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                edEnter4ActionPerformed(evt);
-            }
-        });
+        eaUsername5.setBackground(new java.awt.Color(255, 255, 255));
+        eaUsername5.setForeground(new java.awt.Color(0, 0, 0));
 
-        edSearch4.setBackground(new java.awt.Color(0, 0, 0));
-        edSearch4.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        edSearch4.setForeground(new java.awt.Color(255, 255, 255));
-        edSearch4.setText("Tìm");
+        jLabel150.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel150.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel150.setText("% Giảm giá");
 
-        jLabel141.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel141.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel141.setText("Ngày bắt đầu KM ");
+        eaPhone5.setBackground(new java.awt.Color(255, 255, 255));
+        eaPhone5.setForeground(new java.awt.Color(0, 0, 0));
 
-        euWorkDate3.setBackground(new java.awt.Color(255, 255, 255));
-        euWorkDate3.setForeground(new java.awt.Color(0, 0, 0));
+        vuNgaykt.setBackground(new java.awt.Color(255, 255, 255));
+        vuNgaykt.setForeground(new java.awt.Color(0, 0, 0));
+
+        jLabel151.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel151.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel151.setText("Ngày kết thúc KM");
 
         vuNgaybd.setBackground(new java.awt.Color(255, 255, 255));
         vuNgaybd.setForeground(new java.awt.Color(0, 0, 0));
+
+        jLabel161.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel161.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel161.setText("Ngày bắt đầu KM");
+
+        jSpinner2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jSpinner2.setModel(new javax.swing.SpinnerNumberModel(0, 0, null, 1));
+
+        jLabel162.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel162.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel162.setText("Số lượng");
+
+        jLabel165.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel165.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel165.setText("Mã khuyến mãi");
 
         javax.swing.GroupLayout jpUpdateVoucherLayout = new javax.swing.GroupLayout(jpUpdateVoucher);
         jpUpdateVoucher.setLayout(jpUpdateVoucherLayout);
@@ -2569,56 +1996,48 @@ public class AdminDashboard extends javax.swing.JFrame {
             jpUpdateVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jpUpdateVoucherLayout.createSequentialGroup()
                 .addGap(47, 47, 47)
-                .addComponent(jLabel121, javax.swing.GroupLayout.PREFERRED_SIZE, 297, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(36, 36, 36)
-                .addGroup(jpUpdateVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel139)
-                    .addComponent(edCategory4, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(20, 20, 20)
-                .addGroup(jpUpdateVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel140)
-                    .addComponent(edEnter4, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(20, 20, 20)
-                .addComponent(edSearch4, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jLabel121, javax.swing.GroupLayout.PREFERRED_SIZE, 297, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(jpUpdateVoucherLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
-                .addComponent(jScrollPane21, javax.swing.GroupLayout.PREFERRED_SIZE, 800, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jLabel136))
             .addGroup(jpUpdateVoucherLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
-                .addComponent(jLabel124))
+                .addComponent(jLabel165)
+                .addGap(155, 155, 155)
+                .addComponent(jLabel162))
             .addGroup(jpUpdateVoucherLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
-                .addComponent(jLabel125)
-                .addGap(45, 45, 45)
-                .addComponent(jLabel126)
-                .addGap(39, 39, 39)
-                .addComponent(jLabel127)
-                .addGap(82, 82, 82)
-                .addComponent(jLabel128))
+                .addComponent(eaID5, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(150, 150, 150)
+                .addComponent(jSpinner2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(jpUpdateVoucherLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
-                .addComponent(euID2, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(euName2, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(euSex2, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(euPhone2, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jLabel137)
+                .addGap(149, 149, 149)
+                .addComponent(jLabel161))
             .addGroup(jpUpdateVoucherLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
-                .addComponent(jLabel129)
-                .addGap(85, 85, 85)
-                .addComponent(jLabel141)
-                .addGap(27, 27, 27)
-                .addComponent(jLabel130))
+                .addComponent(jComboBox9, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(100, 100, 100)
+                .addComponent(vuNgaybd, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(jpUpdateVoucherLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
-                .addComponent(euWorkDate3, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(vuNgaybd, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(vuNgaykt, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(225, 225, 225)
+                .addComponent(jLabel147)
+                .addGap(117, 117, 117)
+                .addComponent(jLabel151))
+            .addGroup(jpUpdateVoucherLayout.createSequentialGroup()
+                .addGap(50, 50, 50)
+                .addComponent(eaUsername5, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(50, 50, 50)
+                .addComponent(vuNgaykt, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jpUpdateVoucherLayout.createSequentialGroup()
+                .addGap(50, 50, 50)
+                .addComponent(jLabel150))
+            .addGroup(jpUpdateVoucherLayout.createSequentialGroup()
+                .addGap(50, 50, 50)
+                .addComponent(eaPhone5, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jpUpdateVoucherLayout.createSequentialGroup()
+                .addGap(670, 670, 670)
                 .addComponent(euSavebt2, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(10, 10, 10)
                 .addComponent(euBackbt2, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -2627,45 +2046,36 @@ public class AdminDashboard extends javax.swing.JFrame {
             jpUpdateVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jpUpdateVoucherLayout.createSequentialGroup()
                 .addGap(37, 37, 37)
+                .addComponent(jLabel121)
+                .addGap(1, 1, 1)
+                .addComponent(jLabel136)
+                .addGap(30, 30, 30)
                 .addGroup(jpUpdateVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel121)
-                    .addGroup(jpUpdateVoucherLayout.createSequentialGroup()
-                        .addGap(3, 3, 3)
-                        .addComponent(jLabel139)
-                        .addGap(0, 0, 0)
-                        .addComponent(edCategory4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jpUpdateVoucherLayout.createSequentialGroup()
-                        .addGap(3, 3, 3)
-                        .addComponent(jLabel140)
-                        .addGap(0, 0, 0)
-                        .addComponent(edEnter4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jpUpdateVoucherLayout.createSequentialGroup()
-                        .addGap(23, 23, 23)
-                        .addComponent(edSearch4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(jLabel165)
+                    .addComponent(jLabel162))
+                .addGroup(jpUpdateVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(eaID5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jSpinner2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(20, 20, 20)
-                .addComponent(jScrollPane21, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jpUpdateVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel137)
+                    .addComponent(jLabel161))
+                .addGroup(jpUpdateVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jComboBox9, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(vuNgaybd, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(20, 20, 20)
-                .addComponent(jLabel124)
-                .addGap(10, 10, 10)
                 .addGroup(jpUpdateVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel125)
-                    .addComponent(jLabel126)
-                    .addComponent(jLabel127)
-                    .addComponent(jLabel128))
+                    .addComponent(jLabel147)
+                    .addComponent(jLabel151))
                 .addGroup(jpUpdateVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(euID2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(euName2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(euSex2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(euPhone2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(10, 10, 10)
+                    .addComponent(eaUsername5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(vuNgaykt, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(20, 20, 20)
+                .addComponent(jLabel150)
+                .addGap(0, 0, 0)
+                .addComponent(eaPhone5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(20, 20, 20)
                 .addGroup(jpUpdateVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel129)
-                    .addComponent(jLabel141)
-                    .addComponent(jLabel130))
-                .addGroup(jpUpdateVoucherLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(euWorkDate3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(vuNgaybd, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(vuNgaykt, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(euSavebt2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(euBackbt2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
@@ -2960,9 +2370,6 @@ public class AdminDashboard extends javax.swing.JFrame {
         eaName3.setBackground(new java.awt.Color(255, 255, 255));
         eaName3.setForeground(new java.awt.Color(0, 0, 0));
 
-        eaPhone3.setBackground(new java.awt.Color(255, 255, 255));
-        eaPhone3.setForeground(new java.awt.Color(0, 0, 0));
-
         jLabel123.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel123.setForeground(new java.awt.Color(0, 0, 0));
         jLabel123.setText("Số lượng");
@@ -3024,56 +2431,62 @@ public class AdminDashboard extends javax.swing.JFrame {
         iaNgaysx.setBackground(new java.awt.Color(255, 255, 255));
         iaNgaysx.setForeground(new java.awt.Color(0, 0, 0));
 
+        jSpinner3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jSpinner3.setModel(new javax.swing.SpinnerNumberModel(0, 0, null, 1));
+
         javax.swing.GroupLayout jpAddKhoLayout = new javax.swing.GroupLayout(jpAddKho);
         jpAddKho.setLayout(jpAddKhoLayout);
         jpAddKhoLayout.setHorizontalGroup(
             jpAddKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jpAddKhoLayout.createSequentialGroup()
-                .addGap(49, 49, 49)
-                .addComponent(jLabel113))
-            .addGroup(jpAddKhoLayout.createSequentialGroup()
-                .addGap(49, 49, 49)
-                .addComponent(jLabel145))
-            .addGroup(jpAddKhoLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jLabel116)
-                .addGap(164, 164, 164)
-                .addComponent(jLabel142))
-            .addGroup(jpAddKhoLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(eaID3, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(60, 60, 60)
-                .addComponent(eaWorkDate5, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jpAddKhoLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jLabel122)
-                .addGap(161, 161, 161)
-                .addComponent(jLabel146))
-            .addGroup(jpAddKhoLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(eaName3, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(60, 60, 60)
-                .addComponent(iaNgaysx, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jpAddKhoLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jLabel143)
-                .addGap(219, 219, 219)
-                .addComponent(jLabel144))
-            .addGroup(jpAddKhoLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(eaUsername3, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(60, 60, 60)
-                .addComponent(iaHansd, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jpAddKhoLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jLabel123))
-            .addGroup(jpAddKhoLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(eaPhone3, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(380, 380, 380)
-                .addComponent(eaAddbt3, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
-                .addComponent(eaBackbt3, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jpAddKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jpAddKhoLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(jLabel116)
+                        .addGap(164, 164, 164)
+                        .addComponent(jLabel142))
+                    .addGroup(jpAddKhoLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(eaID3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(160, 160, 160)
+                        .addComponent(eaWorkDate5, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jpAddKhoLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(jLabel122)
+                        .addGap(161, 161, 161)
+                        .addComponent(jLabel146))
+                    .addGroup(jpAddKhoLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(eaName3, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(60, 60, 60)
+                        .addComponent(iaNgaysx, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jpAddKhoLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(jLabel143)
+                        .addGap(219, 219, 219)
+                        .addComponent(jLabel144))
+                    .addGroup(jpAddKhoLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(eaUsername3, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(110, 110, 110)
+                        .addComponent(iaHansd, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jpAddKhoLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(jLabel123))
+                    .addGroup(jpAddKhoLayout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addComponent(jSpinner3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jpAddKhoLayout.createSequentialGroup()
+                        .addGap(680, 680, 680)
+                        .addComponent(eaAddbt3, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(10, 10, 10)
+                        .addComponent(eaBackbt3, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jpAddKhoLayout.createSequentialGroup()
+                        .addGap(49, 49, 49)
+                        .addGroup(jpAddKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel145)
+                            .addComponent(jLabel113))))
+                .addGap(50, 50, 50))
         );
         jpAddKhoLayout.setVerticalGroup(
             jpAddKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -3105,139 +2518,15 @@ public class AdminDashboard extends javax.swing.JFrame {
                     .addComponent(iaHansd, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(20, 20, 20)
                 .addComponent(jLabel123)
+                .addGap(0, 0, 0)
+                .addComponent(jSpinner3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(30, 30, 30)
                 .addGroup(jpAddKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(eaPhone3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jpAddKhoLayout.createSequentialGroup()
-                        .addGap(10, 10, 10)
-                        .addGroup(jpAddKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(eaAddbt3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(eaBackbt3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                    .addComponent(eaAddbt3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(eaBackbt3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
         pnContainer.add(jpAddKho, "card12");
-
-        jpDeleteKho.setBackground(new java.awt.Color(242, 231, 220));
-        jpDeleteKho.setPreferredSize(new java.awt.Dimension(900, 533));
-
-        jLabel147.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel147.setForeground(new java.awt.Color(100, 19, 19));
-        jLabel147.setText("XOÁ SẢN PHẨM");
-
-        edDeletebt3.setBackground(new java.awt.Color(100, 19, 19));
-        edDeletebt3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        edDeletebt3.setForeground(new java.awt.Color(255, 255, 255));
-        edDeletebt3.setText("Xoá");
-
-        edBackbt3.setBackground(new java.awt.Color(255, 255, 255));
-        edBackbt3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        edBackbt3.setForeground(new java.awt.Color(0, 0, 0));
-        edBackbt3.setText("Huỷ");
-        edBackbt3.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                edBackbt3MouseClicked(evt);
-            }
-        });
-        edBackbt3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                edBackbt3ActionPerformed(evt);
-            }
-        });
-
-        emTable9.setBackground(new java.awt.Color(255, 255, 255));
-        emTable9.setForeground(new java.awt.Color(0, 0, 0));
-        emTable9.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-
-            },
-            new String [] {
-                "ID", "Tên NL", "Đơn vị", "Số lượng", "Ngày sản xuất", "Hạn sử dụng", "Nhà cung cấp"
-            }
-        ));
-        emTable9.setGridColor(new java.awt.Color(100, 19, 19));
-        emTable9.setSelectionBackground(new java.awt.Color(255, 255, 255));
-        jScrollPane12.setViewportView(emTable9);
-
-        emEnter5.setBackground(new java.awt.Color(255, 255, 255));
-        emEnter5.setForeground(new java.awt.Color(0, 0, 0));
-
-        emSearch5.setBackground(new java.awt.Color(0, 0, 0));
-        emSearch5.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        emSearch5.setForeground(new java.awt.Color(255, 255, 255));
-        emSearch5.setText("Tìm");
-        emSearch5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                emSearch5ActionPerformed(evt);
-            }
-        });
-
-        jLabel150.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel150.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel150.setText("Nhập thông tin");
-
-        emCategory5.setBackground(new java.awt.Color(255, 255, 255));
-        emCategory5.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        emCategory5.setForeground(new java.awt.Color(0, 0, 0));
-        emCategory5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "ID", "Tên NL", "Đơn vị", "Ngày sản xuất", "Hạn sử dụng", "Nhà cung cấp" }));
-
-        jLabel151.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel151.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel151.setText("Tìm kiếm theo");
-
-        javax.swing.GroupLayout jpDeleteKhoLayout = new javax.swing.GroupLayout(jpDeleteKho);
-        jpDeleteKho.setLayout(jpDeleteKhoLayout);
-        jpDeleteKhoLayout.setHorizontalGroup(
-            jpDeleteKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jpDeleteKhoLayout.createSequentialGroup()
-                .addGap(49, 49, 49)
-                .addComponent(jLabel147)
-                .addGap(36, 36, 36)
-                .addGroup(jpDeleteKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel151)
-                    .addComponent(emCategory5, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(20, 20, 20)
-                .addGroup(jpDeleteKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel150)
-                    .addComponent(emEnter5, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(20, 20, 20)
-                .addComponent(emSearch5, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(jpDeleteKhoLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 670, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(50, 50, 50)
-                .addGroup(jpDeleteKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(edDeletebt3, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(edBackbt3, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
-        );
-        jpDeleteKhoLayout.setVerticalGroup(
-            jpDeleteKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jpDeleteKhoLayout.createSequentialGroup()
-                .addGap(34, 34, 34)
-                .addGroup(jpDeleteKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel147)
-                    .addGroup(jpDeleteKhoLayout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addComponent(jLabel151)
-                        .addGap(0, 0, 0)
-                        .addComponent(emCategory5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jpDeleteKhoLayout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addComponent(jLabel150)
-                        .addGap(0, 0, 0)
-                        .addComponent(emEnter5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jpDeleteKhoLayout.createSequentialGroup()
-                        .addGap(26, 26, 26)
-                        .addComponent(emSearch5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(30, 30, 30)
-                .addGroup(jpDeleteKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 360, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jpDeleteKhoLayout.createSequentialGroup()
-                        .addGap(270, 270, 270)
-                        .addComponent(edDeletebt3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(10, 10, 10)
-                        .addComponent(edBackbt3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))))
-        );
-
-        pnContainer.add(jpDeleteKho, "card13");
 
         jpUpdateKho.setBackground(new java.awt.Color(242, 231, 220));
         jpUpdateKho.setPreferredSize(new java.awt.Dimension(900, 533));
@@ -3245,46 +2534,6 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel152.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel152.setForeground(new java.awt.Color(100, 19, 19));
         jLabel152.setText("CHỈNH SỬA NGUYÊN LIỆU");
-
-        jLabel153.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel153.setForeground(new java.awt.Color(100, 19, 19));
-        jLabel153.setText("Nhập thông tin cần chỉnh sửa");
-
-        jLabel154.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel154.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel154.setText("Mã nguyên liệu");
-
-        euID3.setBackground(new java.awt.Color(255, 255, 255));
-        euID3.setForeground(new java.awt.Color(0, 0, 0));
-
-        euName3.setBackground(new java.awt.Color(255, 255, 255));
-        euName3.setForeground(new java.awt.Color(0, 0, 0));
-
-        euSex3.setBackground(new java.awt.Color(255, 255, 255));
-        euSex3.setForeground(new java.awt.Color(0, 0, 0));
-
-        euPhone3.setBackground(new java.awt.Color(255, 255, 255));
-        euPhone3.setForeground(new java.awt.Color(0, 0, 0));
-
-        jLabel155.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel155.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel155.setText("Tên nguyên liệu");
-
-        jLabel156.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel156.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel156.setText("Đơn vị");
-
-        jLabel157.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel157.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel157.setText("Số lượng");
-
-        jLabel158.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel158.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel158.setText("Ngày sản xuất");
-
-        jLabel159.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel159.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel159.setText("Hạn sử dụng");
 
         euSavebt3.setBackground(new java.awt.Color(100, 19, 19));
         euSavebt3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -3306,58 +2555,58 @@ public class AdminDashboard extends javax.swing.JFrame {
             }
         });
 
-        jLabel163.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel163.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel163.setText("Tìm kiếm theo");
+        jLabel124.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel124.setForeground(new java.awt.Color(100, 19, 19));
+        jLabel124.setText("Nhập thông tin nguyên liệu cần chỉnh sửa");
 
-        emEnter6.setBackground(new java.awt.Color(255, 255, 255));
-        emEnter6.setForeground(new java.awt.Color(0, 0, 0));
+        eaID6.setBackground(new java.awt.Color(255, 255, 255));
+        eaID6.setForeground(new java.awt.Color(0, 0, 0));
 
-        jLabel164.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel164.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel164.setText("Nhập thông tin");
+        jLabel125.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel125.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel125.setText("Tên nguyên liệu");
 
-        emSearch6.setBackground(new java.awt.Color(0, 0, 0));
-        emSearch6.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        emSearch6.setForeground(new java.awt.Color(255, 255, 255));
-        emSearch6.setText("Tìm");
-        emSearch6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                emSearch6ActionPerformed(evt);
-            }
-        });
+        eaName4.setBackground(new java.awt.Color(255, 255, 255));
+        eaName4.setForeground(new java.awt.Color(0, 0, 0));
 
-        emCategory7.setBackground(new java.awt.Color(255, 255, 255));
-        emCategory7.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        emCategory7.setForeground(new java.awt.Color(0, 0, 0));
-        emCategory7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "ID", "Tên NL", "Đơn vị", "Ngày sản xuất", "Hạn sử dụng", "Nhà cung cấp" }));
+        jLabel166.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel166.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel166.setText("Đơn vị");
 
-        emTable11.setBackground(new java.awt.Color(255, 255, 255));
-        emTable11.setForeground(new java.awt.Color(0, 0, 0));
-        emTable11.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
+        eaUsername6.setBackground(new java.awt.Color(255, 255, 255));
+        eaUsername6.setForeground(new java.awt.Color(0, 0, 0));
 
-            },
-            new String [] {
-                "ID", "Tên NL", "Đơn vị", "Số lượng", "Ngày sản xuất", "Hạn sử dụng", "Nhà cung cấp"
-            }
-        ));
-        emTable11.setGridColor(new java.awt.Color(100, 19, 19));
-        emTable11.setSelectionBackground(new java.awt.Color(255, 255, 255));
-        jScrollPane14.setViewportView(emTable11);
+        jLabel126.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel126.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel126.setText("Số lượng");
 
-        jLabel160.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel160.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel160.setText("Nhà cung cấp");
+        jSpinner4.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jSpinner4.setModel(new javax.swing.SpinnerNumberModel(0, 0, null, 1));
 
         iuHansd.setBackground(new java.awt.Color(255, 255, 255));
         iuHansd.setForeground(new java.awt.Color(0, 0, 0));
 
-        euWorkDate5.setBackground(new java.awt.Color(255, 255, 255));
-        euWorkDate5.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel167.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel167.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel167.setText("Hạn sử dụng");
 
         iuNgaysx.setBackground(new java.awt.Color(255, 255, 255));
         iuNgaysx.setForeground(new java.awt.Color(0, 0, 0));
+
+        jLabel168.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel168.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel168.setText("Ngày sản xuất");
+
+        eaWorkDate6.setBackground(new java.awt.Color(255, 255, 255));
+        eaWorkDate6.setForeground(new java.awt.Color(0, 0, 0));
+
+        jLabel169.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel169.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel169.setText("Nhà cung cấp");
+
+        jLabel127.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel127.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel127.setText("Mã nguyên liệu");
 
         javax.swing.GroupLayout jpUpdateKhoLayout = new javax.swing.GroupLayout(jpUpdateKho);
         jpUpdateKho.setLayout(jpUpdateKhoLayout);
@@ -3365,56 +2614,48 @@ public class AdminDashboard extends javax.swing.JFrame {
             jpUpdateKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jpUpdateKhoLayout.createSequentialGroup()
                 .addGap(47, 47, 47)
-                .addComponent(jLabel152)
-                .addGap(38, 38, 38)
-                .addGroup(jpUpdateKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel163)
-                    .addComponent(emCategory7, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(20, 20, 20)
-                .addGroup(jpUpdateKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel164)
-                    .addComponent(emEnter6, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(20, 20, 20)
-                .addComponent(emSearch6, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jLabel152))
             .addGroup(jpUpdateKhoLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
-                .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 800, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jLabel124))
             .addGroup(jpUpdateKhoLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
-                .addComponent(jLabel153))
+                .addComponent(jLabel127)
+                .addGap(164, 164, 164)
+                .addComponent(jLabel169))
             .addGroup(jpUpdateKhoLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
-                .addComponent(jLabel154)
-                .addGap(44, 44, 44)
-                .addComponent(jLabel155)
-                .addGap(41, 41, 41)
-                .addComponent(jLabel156)
-                .addGap(99, 99, 99)
-                .addComponent(jLabel157))
+                .addComponent(eaID6, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(160, 160, 160)
+                .addComponent(eaWorkDate6, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(jpUpdateKhoLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
-                .addComponent(euID3, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(euName3, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(euSex3, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(euPhone3, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jLabel125)
+                .addGap(161, 161, 161)
+                .addComponent(jLabel168))
             .addGroup(jpUpdateKhoLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
-                .addComponent(jLabel160)
-                .addGap(53, 53, 53)
-                .addComponent(jLabel158)
-                .addGap(51, 51, 51)
-                .addComponent(jLabel159))
+                .addComponent(eaName4, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(60, 60, 60)
+                .addComponent(iuNgaysx, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(jpUpdateKhoLayout.createSequentialGroup()
                 .addGap(50, 50, 50)
-                .addComponent(euWorkDate5, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(iuNgaysx, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(15, 15, 15)
-                .addComponent(iuHansd, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(225, 225, 225)
+                .addComponent(jLabel166)
+                .addGap(219, 219, 219)
+                .addComponent(jLabel167))
+            .addGroup(jpUpdateKhoLayout.createSequentialGroup()
+                .addGap(50, 50, 50)
+                .addComponent(eaUsername6, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(110, 110, 110)
+                .addComponent(iuHansd, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jpUpdateKhoLayout.createSequentialGroup()
+                .addGap(50, 50, 50)
+                .addComponent(jLabel126))
+            .addGroup(jpUpdateKhoLayout.createSequentialGroup()
+                .addGap(50, 50, 50)
+                .addComponent(jSpinner4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jpUpdateKhoLayout.createSequentialGroup()
+                .addGap(680, 680, 680)
                 .addComponent(euSavebt3, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(10, 10, 10)
                 .addComponent(euBackbt3, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -3423,45 +2664,36 @@ public class AdminDashboard extends javax.swing.JFrame {
             jpUpdateKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jpUpdateKhoLayout.createSequentialGroup()
                 .addGap(37, 37, 37)
+                .addComponent(jLabel152)
+                .addGap(1, 1, 1)
+                .addComponent(jLabel124)
+                .addGap(30, 30, 30)
                 .addGroup(jpUpdateKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel152)
-                    .addGroup(jpUpdateKhoLayout.createSequentialGroup()
-                        .addGap(3, 3, 3)
-                        .addComponent(jLabel163)
-                        .addGap(0, 0, 0)
-                        .addComponent(emCategory7, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jpUpdateKhoLayout.createSequentialGroup()
-                        .addGap(3, 3, 3)
-                        .addComponent(jLabel164)
-                        .addGap(0, 0, 0)
-                        .addComponent(emEnter6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jpUpdateKhoLayout.createSequentialGroup()
-                        .addGap(23, 23, 23)
-                        .addComponent(emSearch6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(20, 20, 20)
-                .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(10, 10, 10)
-                .addComponent(jLabel153)
+                    .addComponent(jLabel127)
+                    .addComponent(jLabel169))
+                .addGroup(jpUpdateKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(eaID6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(eaWorkDate6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(20, 20, 20)
                 .addGroup(jpUpdateKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel154)
-                    .addComponent(jLabel155)
-                    .addComponent(jLabel156)
-                    .addComponent(jLabel157))
+                    .addComponent(jLabel125)
+                    .addComponent(jLabel168))
                 .addGroup(jpUpdateKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(euID3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(euName3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(euSex3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(euPhone3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(10, 10, 10)
+                    .addComponent(eaName4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(iuNgaysx, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(20, 20, 20)
                 .addGroup(jpUpdateKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel160)
-                    .addComponent(jLabel158)
-                    .addComponent(jLabel159))
+                    .addComponent(jLabel166)
+                    .addComponent(jLabel167))
                 .addGroup(jpUpdateKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(euWorkDate5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(iuNgaysx, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(iuHansd, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(eaUsername6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(iuHansd, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(20, 20, 20)
+                .addComponent(jLabel126)
+                .addGap(0, 0, 0)
+                .addComponent(jSpinner4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(30, 30, 30)
+                .addGroup(jpUpdateKhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(euSavebt3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(euBackbt3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
@@ -3497,18 +2729,20 @@ public class AdminDashboard extends javax.swing.JFrame {
         jLabel8.setText("THE COFFEE HOME");
         pnMain.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 20, -1, -1));
 
-        openMenu.setText(" ");
-        openMenu.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                openMenuMouseClicked(evt);
-            }
-        });
-        pnMain.add(openMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 50, 50));
-
         adminUsername.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         adminUsername.setForeground(new java.awt.Color(255, 255, 255));
         adminUsername.setText("Admin");
         pnMain.add(adminUsername, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 20, 50, 30));
+
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("MỞ");
+        jLabel1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel1MouseClicked(evt);
+            }
+        });
+        pnMain.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -3531,17 +2765,17 @@ public class AdminDashboard extends javax.swing.JFrame {
 
     // Thêm file svg vào giao diện
     public void addSVG() {
-        openMenu.setSVGImage("image_svg/menu.svg", 30, 30);
-        closeMenu.setSVGImage("image_svg/closemenu.svg", 30, 30);
-        mainLogo.setSVGImage("image_svg/mainlogo.svg", 90, 90);
-        svgEmp.setSVGImage("image_svg/emp.svg", 30, 30);
-        svgPro.setSVGImage("image_svg/product.svg", 30, 30);
-        svgVou.setSVGImage("image_svg/voucher.svg", 30, 30);
-        svgUser.setSVGImage("image_svg/account.svg", 30, 30);
-        svgBill.setSVGImage("image_svg/bill.svg", 30, 30);
-        svgKho.setSVGImage("image_svg/kho.svg", 30, 30);
-        svgSta.setSVGImage("image_svg/statistics.svg", 30, 30);
-        svgLogout.setSVGImage("image_svg/logout.svg", 30, 30);
+//        openMenu.setSVGImage("image_svg/menu.svg", 30, 30);
+//        closeMenu.setSVGImage("image_svg/closemenu.svg", 30, 30);
+//        mainLogo.setSVGImage("image_svg/mainlogo.svg", 90, 90);
+//        svgEmp.setSVGImage("image_svg/emp.svg", 30, 30);
+//        svgPro.setSVGImage("image_svg/product.svg", 30, 30);
+//        svgVou.setSVGImage("image_svg/voucher.svg", 30, 30);
+//        svgUser.setSVGImage("image_svg/account.svg", 30, 30);
+//        svgBill.setSVGImage("image_svg/bill.svg", 30, 30);
+//        svgKho.setSVGImage("image_svg/kho.svg", 30, 30);
+//        svgSta.setSVGImage("image_svg/statistics.svg", 30, 30);
+//        svgLogout.setSVGImage("image_svg/logout.svg", 30, 30);
     }
     
     public void init(){
@@ -3690,11 +2924,11 @@ public class AdminDashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_lbEmployeeMouseClicked
 
     private void openMenuMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_openMenuMouseClicked
-        openMenuBar();
+        
     }//GEN-LAST:event_openMenuMouseClicked
 
     private void closeMenuMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_closeMenuMouseClicked
-        closeMenuBar();
+       
     }//GEN-LAST:event_closeMenuMouseClicked
 
     private void mainLogoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_mainLogoMouseClicked
@@ -3735,8 +2969,7 @@ public class AdminDashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_emAddbtActionPerformed
 
     private void emDeletebtMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_emDeletebtMouseClicked
-        jpEmployee.setVisible(false);
-        jpDeleteEmployee.setVisible(true);
+        
     }//GEN-LAST:event_emDeletebtMouseClicked
 
     private void emDeletebtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_emDeletebtActionPerformed
@@ -3765,18 +2998,6 @@ public class AdminDashboard extends javax.swing.JFrame {
         
     }//GEN-LAST:event_eaBackbtActionPerformed
 
-    private void edEnterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edEnterActionPerformed
-        
-    }//GEN-LAST:event_edEnterActionPerformed
-
-    private void edBackbtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edBackbtActionPerformed
-       
-    }//GEN-LAST:event_edBackbtActionPerformed
-
-    private void euEnterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_euEnterActionPerformed
-        
-    }//GEN-LAST:event_euEnterActionPerformed
-
     private void euSavebtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_euSavebtActionPerformed
       
     }//GEN-LAST:event_euSavebtActionPerformed
@@ -3792,11 +3013,6 @@ public class AdminDashboard extends javax.swing.JFrame {
         jpHoaDon.setVisible(false);
         jpThongKe.setVisible(false);
     }//GEN-LAST:event_lbUserMouseClicked
-
-    private void edBackbtMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_edBackbtMouseClicked
-        jpEmployee.setVisible(true);
-        jpDeleteEmployee.setVisible(false);
-    }//GEN-LAST:event_edBackbtMouseClicked
 
     private void euBackbtMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_euBackbtMouseClicked
         jpEmployee.setVisible(true);
@@ -3841,8 +3057,7 @@ public class AdminDashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_emAddbt1ActionPerformed
 
     private void emDeletebt1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_emDeletebt1MouseClicked
-        jpProduct.setVisible(false);
-        jpDeleteProduct.setVisible(true);
+        
     }//GEN-LAST:event_emDeletebt1MouseClicked
 
     private void emDeletebt1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_emDeletebt1ActionPerformed
@@ -3871,19 +3086,6 @@ public class AdminDashboard extends javax.swing.JFrame {
         
     }//GEN-LAST:event_eaBackbt1ActionPerformed
 
-    private void edEnter1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edEnter1ActionPerformed
-        
-    }//GEN-LAST:event_edEnter1ActionPerformed
-
-    private void edBackbt1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_edBackbt1MouseClicked
-        jpProduct.setVisible(true);
-        jpDeleteProduct.setVisible(false);
-    }//GEN-LAST:event_edBackbt1MouseClicked
-
-    private void edBackbt1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edBackbt1ActionPerformed
-        
-    }//GEN-LAST:event_edBackbt1ActionPerformed
-
     private void euSavebt1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_euSavebt1ActionPerformed
         
     }//GEN-LAST:event_euSavebt1ActionPerformed
@@ -3907,8 +3109,7 @@ public class AdminDashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_emAddbt2ActionPerformed
 
     private void emDeletebt2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_emDeletebt2MouseClicked
-        jpVoucher.setVisible(false);
-        jpDeleteVoucher.setVisible(true);
+        
     }//GEN-LAST:event_emDeletebt2MouseClicked
 
     private void emDeletebt2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_emDeletebt2ActionPerformed
@@ -3937,19 +3138,6 @@ public class AdminDashboard extends javax.swing.JFrame {
         
     }//GEN-LAST:event_eaBackbt2ActionPerformed
 
-    private void edEnter2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edEnter2ActionPerformed
-        
-    }//GEN-LAST:event_edEnter2ActionPerformed
-
-    private void edBackbt2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_edBackbt2MouseClicked
-        jpVoucher.setVisible(true);
-        jpDeleteVoucher.setVisible(false);
-    }//GEN-LAST:event_edBackbt2MouseClicked
-
-    private void edBackbt2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edBackbt2ActionPerformed
-       
-    }//GEN-LAST:event_edBackbt2ActionPerformed
-
     private void euSavebt2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_euSavebt2ActionPerformed
       
     }//GEN-LAST:event_euSavebt2ActionPerformed
@@ -3958,18 +3146,6 @@ public class AdminDashboard extends javax.swing.JFrame {
         jpVoucher.setVisible(true);
         jpUpdateVoucher.setVisible(false);
     }//GEN-LAST:event_euBackbt2MouseClicked
-
-    private void edSearchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edSearchActionPerformed
-        
-    }//GEN-LAST:event_edSearchActionPerformed
-
-    private void edEnter3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edEnter3ActionPerformed
-       
-    }//GEN-LAST:event_edEnter3ActionPerformed
-
-    private void edEnter4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edEnter4ActionPerformed
-      
-    }//GEN-LAST:event_edEnter4ActionPerformed
 
     private void lbUser3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbUser3MouseClicked
         closeMenuBar();
@@ -4001,8 +3177,7 @@ public class AdminDashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_emAddbt3ActionPerformed
 
     private void emDeletebt3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_emDeletebt3MouseClicked
-        jpKho.setVisible(false);
-        jpDeleteKho.setVisible(true);
+        
     }//GEN-LAST:event_emDeletebt3MouseClicked
 
     private void emDeletebt3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_emDeletebt3ActionPerformed
@@ -4031,19 +3206,6 @@ public class AdminDashboard extends javax.swing.JFrame {
        
     }//GEN-LAST:event_eaBackbt3ActionPerformed
 
-    private void edBackbt3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_edBackbt3MouseClicked
-        jpKho.setVisible(true);
-        jpDeleteKho.setVisible(false);
-    }//GEN-LAST:event_edBackbt3MouseClicked
-
-    private void edBackbt3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edBackbt3ActionPerformed
-       
-    }//GEN-LAST:event_edBackbt3ActionPerformed
-
-    private void emSearch5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_emSearch5ActionPerformed
-        
-    }//GEN-LAST:event_emSearch5ActionPerformed
-
     private void euSavebt3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_euSavebt3ActionPerformed
       
     }//GEN-LAST:event_euSavebt3ActionPerformed
@@ -4052,10 +3214,6 @@ public class AdminDashboard extends javax.swing.JFrame {
         jpKho.setVisible(true);
         jpUpdateKho.setVisible(false);
     }//GEN-LAST:event_euBackbt3MouseClicked
-
-    private void emSearch6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_emSearch6ActionPerformed
-       
-    }//GEN-LAST:event_emSearch6ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         JnaFileChooser choose = new JnaFileChooser();
@@ -4067,19 +3225,20 @@ public class AdminDashboard extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        JnaFileChooser choose = new JnaFileChooser();
-        choose.setMode(JnaFileChooser.Mode.Directories);
-        String anh = "";
-        boolean action = choose.showOpenDialog(this);
-        if (action){
-            anh = choose.getSelectedFile().getName();
-        }
-    }//GEN-LAST:event_jButton2ActionPerformed
+    private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
+        openMenuBar();
+    }//GEN-LAST:event_jLabel1MouseClicked
+
+    private void jLabel7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel7MouseClicked
+        closeMenuBar();
+    }//GEN-LAST:event_jLabel7MouseClicked
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public static javax.swing.JLabel adminUsername;
-    private userView.SVGImage closeMenu;
     private javax.swing.JButton eaAddbt;
     private javax.swing.JButton eaAddbt1;
     private javax.swing.JButton eaAddbt2;
@@ -4093,50 +3252,31 @@ public class AdminDashboard extends javax.swing.JFrame {
     private javax.swing.JTextField eaID1;
     private javax.swing.JTextField eaID2;
     private javax.swing.JTextField eaID3;
+    private javax.swing.JTextField eaID4;
+    private javax.swing.JTextField eaID5;
+    private javax.swing.JTextField eaID6;
     private javax.swing.JTextField eaName;
-    private javax.swing.JTextField eaName1;
-    private javax.swing.JTextField eaName2;
     private javax.swing.JTextField eaName3;
+    private javax.swing.JTextField eaName4;
     private javax.swing.JTextField eaNgaysinh;
     private javax.swing.JTextField eaPassword;
     private javax.swing.JTextField eaPassword1;
+    private javax.swing.JTextField eaPassword2;
     private javax.swing.JTextField eaPhone;
     private javax.swing.JTextField eaPhone1;
     private javax.swing.JTextField eaPhone2;
-    private javax.swing.JTextField eaPhone3;
+    private javax.swing.JTextField eaPhone4;
+    private javax.swing.JTextField eaPhone5;
     private javax.swing.JTextField eaSalary;
     private javax.swing.JTextField eaUsername;
     private javax.swing.JTextField eaUsername1;
     private javax.swing.JTextField eaUsername2;
     private javax.swing.JTextField eaUsername3;
-    private javax.swing.JTextField eaWorkDate1;
-    private javax.swing.JTextField eaWorkDate4;
+    private javax.swing.JTextField eaUsername4;
+    private javax.swing.JTextField eaUsername5;
+    private javax.swing.JTextField eaUsername6;
     private javax.swing.JTextField eaWorkDate5;
-    private javax.swing.JButton edBackbt;
-    private javax.swing.JButton edBackbt1;
-    private javax.swing.JButton edBackbt2;
-    private javax.swing.JButton edBackbt3;
-    private javax.swing.JComboBox<String> edCategory;
-    private javax.swing.JComboBox<String> edCategory1;
-    private javax.swing.JComboBox<String> edCategory2;
-    private javax.swing.JComboBox<String> edCategory3;
-    private javax.swing.JComboBox<String> edCategory4;
-    private javax.swing.JButton edDeletebt;
-    private javax.swing.JButton edDeletebt1;
-    private javax.swing.JButton edDeletebt2;
-    private javax.swing.JButton edDeletebt3;
-    private javax.swing.JTextField edEnter;
-    private javax.swing.JTextField edEnter1;
-    private javax.swing.JTextField edEnter2;
-    private javax.swing.JTextField edEnter3;
-    private javax.swing.JTextField edEnter4;
-    private javax.swing.JButton edSearch;
-    private javax.swing.JButton edSearch1;
-    private javax.swing.JButton edSearch2;
-    private javax.swing.JButton edSearch3;
-    private javax.swing.JButton edSearch4;
-    private javax.swing.JTable edTable;
-    private javax.swing.JTable edTable3;
+    private javax.swing.JTextField eaWorkDate6;
     private javax.swing.JComboBox<String> eeSex;
     private javax.swing.JButton emAddbt;
     private javax.swing.JButton emAddbt1;
@@ -4147,8 +3287,6 @@ public class AdminDashboard extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> emCategory2;
     private javax.swing.JComboBox<String> emCategory3;
     private javax.swing.JComboBox<String> emCategory4;
-    private javax.swing.JComboBox<String> emCategory5;
-    private javax.swing.JComboBox<String> emCategory7;
     private javax.swing.JButton emDeletebt;
     private javax.swing.JButton emDeletebt1;
     private javax.swing.JButton emDeletebt2;
@@ -4158,26 +3296,16 @@ public class AdminDashboard extends javax.swing.JFrame {
     private javax.swing.JTextField emEnter2;
     private javax.swing.JTextField emEnter3;
     private javax.swing.JTextField emEnter4;
-    private javax.swing.JTextField emEnter5;
-    private javax.swing.JTextField emEnter6;
     private javax.swing.JButton emSearch;
     private javax.swing.JButton emSearch1;
     private javax.swing.JButton emSearch2;
     private javax.swing.JButton emSearch3;
     private javax.swing.JButton emSearch4;
-    private javax.swing.JButton emSearch5;
-    private javax.swing.JButton emSearch6;
     private javax.swing.JTable emTable;
     private javax.swing.JTable emTable1;
-    private javax.swing.JTable emTable11;
     private javax.swing.JTable emTable2;
-    private javax.swing.JTable emTable3;
-    private javax.swing.JTable emTable4;
-    private javax.swing.JTable emTable5;
-    private javax.swing.JTable emTable6;
     private javax.swing.JTable emTable7;
     private javax.swing.JTable emTable8;
-    private javax.swing.JTable emTable9;
     private javax.swing.JButton emUpdatebt;
     private javax.swing.JButton emUpdatebt1;
     private javax.swing.JButton emUpdatebt2;
@@ -4187,46 +3315,31 @@ public class AdminDashboard extends javax.swing.JFrame {
     private javax.swing.JButton euBackbt2;
     private javax.swing.JButton euBackbt3;
     private javax.swing.JTextField euDiachi1;
-    private javax.swing.JTextField euEnter;
     private javax.swing.JTextField euID;
-    private javax.swing.JTextField euID1;
-    private javax.swing.JTextField euID2;
-    private javax.swing.JTextField euID3;
     private javax.swing.JTextField euName;
-    private javax.swing.JTextField euName1;
-    private javax.swing.JTextField euName2;
-    private javax.swing.JTextField euName3;
     private javax.swing.JTextField euNgaysinh;
     private javax.swing.JTextField euPhone;
-    private javax.swing.JTextField euPhone1;
-    private javax.swing.JTextField euPhone2;
-    private javax.swing.JTextField euPhone3;
     private javax.swing.JTextField euSalary;
-    private javax.swing.JTextField euSalary1;
     private javax.swing.JButton euSavebt;
     private javax.swing.JButton euSavebt1;
     private javax.swing.JButton euSavebt2;
     private javax.swing.JButton euSavebt3;
-    private javax.swing.JButton euSearch;
-    private javax.swing.JTextField euSex1;
-    private javax.swing.JTextField euSex2;
-    private javax.swing.JTextField euSex3;
-    private javax.swing.JTextField euWorkDate1;
-    private javax.swing.JTextField euWorkDate3;
-    private javax.swing.JTextField euWorkDate5;
     private javax.swing.JTextField iaHansd;
     private javax.swing.JTextField iaNgaysx;
     private javax.swing.JTextField iuHansd;
     private javax.swing.JTextField iuNgaysx;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JComboBox<String> jComboBox2;
+    private javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JComboBox<String> jComboBox4;
-    private javax.swing.JLabel jLabel100;
-    private javax.swing.JLabel jLabel101;
-    private javax.swing.JLabel jLabel102;
-    private javax.swing.JLabel jLabel103;
+    private javax.swing.JComboBox<String> jComboBox5;
+    private javax.swing.JComboBox<String> jComboBox6;
+    private javax.swing.JComboBox<String> jComboBox7;
+    private javax.swing.JComboBox<String> jComboBox8;
+    private javax.swing.JComboBox<String> jComboBox9;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel104;
     private javax.swing.JLabel jLabel105;
     private javax.swing.JLabel jLabel106;
@@ -4251,9 +3364,6 @@ public class AdminDashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel125;
     private javax.swing.JLabel jLabel126;
     private javax.swing.JLabel jLabel127;
-    private javax.swing.JLabel jLabel128;
-    private javax.swing.JLabel jLabel129;
-    private javax.swing.JLabel jLabel130;
     private javax.swing.JLabel jLabel131;
     private javax.swing.JLabel jLabel132;
     private javax.swing.JLabel jLabel133;
@@ -4262,9 +3372,6 @@ public class AdminDashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel136;
     private javax.swing.JLabel jLabel137;
     private javax.swing.JLabel jLabel138;
-    private javax.swing.JLabel jLabel139;
-    private javax.swing.JLabel jLabel140;
-    private javax.swing.JLabel jLabel141;
     private javax.swing.JLabel jLabel142;
     private javax.swing.JLabel jLabel143;
     private javax.swing.JLabel jLabel144;
@@ -4276,16 +3383,13 @@ public class AdminDashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel150;
     private javax.swing.JLabel jLabel151;
     private javax.swing.JLabel jLabel152;
-    private javax.swing.JLabel jLabel153;
-    private javax.swing.JLabel jLabel154;
-    private javax.swing.JLabel jLabel155;
-    private javax.swing.JLabel jLabel156;
-    private javax.swing.JLabel jLabel157;
-    private javax.swing.JLabel jLabel158;
-    private javax.swing.JLabel jLabel159;
-    private javax.swing.JLabel jLabel160;
-    private javax.swing.JLabel jLabel163;
-    private javax.swing.JLabel jLabel164;
+    private javax.swing.JLabel jLabel161;
+    private javax.swing.JLabel jLabel162;
+    private javax.swing.JLabel jLabel165;
+    private javax.swing.JLabel jLabel166;
+    private javax.swing.JLabel jLabel167;
+    private javax.swing.JLabel jLabel168;
+    private javax.swing.JLabel jLabel169;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -4294,7 +3398,6 @@ public class AdminDashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel51;
     private javax.swing.JLabel jLabel52;
     private javax.swing.JLabel jLabel53;
-    private javax.swing.JLabel jLabel54;
     private javax.swing.JLabel jLabel55;
     private javax.swing.JLabel jLabel56;
     private javax.swing.JLabel jLabel57;
@@ -4307,10 +3410,8 @@ public class AdminDashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel63;
     private javax.swing.JLabel jLabel64;
     private javax.swing.JLabel jLabel65;
-    private javax.swing.JLabel jLabel66;
-    private javax.swing.JLabel jLabel67;
-    private javax.swing.JLabel jLabel68;
     private javax.swing.JLabel jLabel69;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel70;
     private javax.swing.JLabel jLabel71;
     private javax.swing.JLabel jLabel72;
@@ -4340,33 +3441,23 @@ public class AdminDashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel95;
     private javax.swing.JLabel jLabel96;
     private javax.swing.JLabel jLabel97;
-    private javax.swing.JLabel jLabel98;
-    private javax.swing.JLabel jLabel99;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JScrollPane jScrollPane10;
     private javax.swing.JScrollPane jScrollPane11;
-    private javax.swing.JScrollPane jScrollPane12;
     private javax.swing.JScrollPane jScrollPane13;
-    private javax.swing.JScrollPane jScrollPane14;
     private javax.swing.JScrollPane jScrollPane16;
-    private javax.swing.JScrollPane jScrollPane17;
-    private javax.swing.JScrollPane jScrollPane18;
-    private javax.swing.JScrollPane jScrollPane19;
-    private javax.swing.JScrollPane jScrollPane20;
-    private javax.swing.JScrollPane jScrollPane21;
     private javax.swing.JScrollPane jScrollPane22;
-    private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JSpinner jSpinner1;
+    private javax.swing.JSpinner jSpinner2;
+    private javax.swing.JSpinner jSpinner3;
+    private javax.swing.JSpinner jSpinner4;
     private javax.swing.JPanel jpAddEmployee;
     private javax.swing.JPanel jpAddKho;
     private javax.swing.JPanel jpAddProduct;
     private javax.swing.JPanel jpAddVoucher;
-    private javax.swing.JPanel jpDeleteEmployee;
-    private javax.swing.JPanel jpDeleteKho;
-    private javax.swing.JPanel jpDeleteProduct;
-    private javax.swing.JPanel jpDeleteVoucher;
     private javax.swing.JPanel jpEmployee;
     private javax.swing.JPanel jpHoaDon;
     private javax.swing.JPanel jpHome;
@@ -4389,21 +3480,9 @@ public class AdminDashboard extends javax.swing.JFrame {
     private javax.swing.JLabel lbUser2;
     private javax.swing.JLabel lbUser3;
     private javax.swing.JLabel lbVoucher;
-    private userView.SVGImage mainLogo;
-    private userView.SVGImage openMenu;
     private javax.swing.JPanel pnContainer;
     private javax.swing.JPanel pnMain;
     private javax.swing.JPanel pnSlideMenu;
-    private userView.SVGImage svgBill;
-    private userView.SVGImage svgEmp;
-    private userView.SVGImage svgKho;
-    private userView.SVGImage svgLogout;
-    private userView.SVGImage svgManage1;
-    private userView.SVGImage svgPro;
-    private userView.SVGImage svgPro1;
-    private userView.SVGImage svgSta;
-    private userView.SVGImage svgUser;
-    private userView.SVGImage svgVou;
     private javax.swing.JTextField vaNgaybd;
     private javax.swing.JTextField vaNgaykt;
     private javax.swing.JTextField vuNgaybd;

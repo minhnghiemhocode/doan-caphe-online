@@ -55,22 +55,14 @@ public class UserDashboard extends JFrame {
         pnSlideMenu = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
-        closeMenu = new userView.SVGImage();
-        mainLogo = new userView.SVGImage();
+        jLabel314 = new javax.swing.JLabel();
         lbLogout = new javax.swing.JLabel();
         lbHome = new javax.swing.JLabel();
         lbAccount = new javax.swing.JLabel();
         lbMenu = new javax.swing.JLabel();
-        svgHome = new userView.SVGImage();
-        svgAccount = new userView.SVGImage();
-        svgShop = new userView.SVGImage();
-        svgLogout = new userView.SVGImage();
         lbPurchase1 = new javax.swing.JLabel();
         lbPurchase2 = new javax.swing.JLabel();
-        svgHistory = new userView.SVGImage();
-        svgChat = new userView.SVGImage();
         lbAccount1 = new javax.swing.JLabel();
-        svgVou = new userView.SVGImage();
         pnContainer = new javax.swing.JPanel();
         jpHome = new javax.swing.JPanel();
         jpHomea = new javax.swing.JPanel();
@@ -81,8 +73,6 @@ public class UserDashboard extends JFrame {
         jLabel10 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
-        svgA = new userView.SVGImage();
-        svgB = new userView.SVGImage();
         jLabel19 = new javax.swing.JLabel();
         jpAccount = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
@@ -104,7 +94,6 @@ public class UserDashboard extends JFrame {
         jPanel5 = new javax.swing.JPanel();
         userUsername = new javax.swing.JLabel();
         amDeletebt = new javax.swing.JButton();
-        svgAva = new userView.SVGImage();
         amNameDisplay = new javax.swing.JLabel();
         amID = new javax.swing.JLabel();
         jLabela = new javax.swing.JLabel();
@@ -727,7 +716,7 @@ public class UserDashboard extends JFrame {
         jLabel414 = new javax.swing.JLabel();
         jButton10 = new javax.swing.JButton();
         jLabel8 = new javax.swing.JLabel();
-        openMenu = new userView.SVGImage();
+        jLabel313 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -749,19 +738,15 @@ public class UserDashboard extends JFrame {
         jLabel2.setText("THE COFFEE HOME");
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, 170, -1));
 
-        closeMenu.addMouseListener(new java.awt.event.MouseAdapter() {
+        jLabel314.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel314.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel314.setText("ĐÓNG");
+        jLabel314.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                closeMenuMouseClicked(evt);
+                jLabel314MouseClicked(evt);
             }
         });
-        jPanel2.add(closeMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 10, 40, 41));
-
-        mainLogo.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                mainLogoMouseClicked(evt);
-            }
-        });
-        jPanel2.add(mainLogo, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 50, 120, 95));
+        jPanel2.add(jLabel314, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, 60, -1));
 
         pnSlideMenu.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 200, 190));
 
@@ -805,10 +790,6 @@ public class UserDashboard extends JFrame {
             }
         });
         pnSlideMenu.add(lbMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 360, -1, -1));
-        pnSlideMenu.add(svgHome, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 210, 30, 30));
-        pnSlideMenu.add(svgAccount, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, 30, 30));
-        pnSlideMenu.add(svgShop, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 360, 30, 30));
-        pnSlideMenu.add(svgLogout, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 560, 30, 30));
 
         lbPurchase1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lbPurchase1.setForeground(new java.awt.Color(255, 255, 255));
@@ -829,8 +810,6 @@ public class UserDashboard extends JFrame {
             }
         });
         pnSlideMenu.add(lbPurchase2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 460, -1, -1));
-        pnSlideMenu.add(svgHistory, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 410, 30, 30));
-        pnSlideMenu.add(svgChat, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 460, 30, 30));
 
         lbAccount1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         lbAccount1.setForeground(new java.awt.Color(255, 255, 255));
@@ -841,7 +820,6 @@ public class UserDashboard extends JFrame {
             }
         });
         pnSlideMenu.add(lbAccount1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 310, -1, -1));
-        pnSlideMenu.add(svgVou, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, 30, 30));
 
         pnMain.add(pnSlideMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 0, 600));
 
@@ -891,8 +869,6 @@ public class UserDashboard extends JFrame {
         jLabel15.setForeground(new java.awt.Color(0, 0, 0));
         jLabel15.setText("Espresso");
         jpHomea.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 330, -1, -1));
-        jpHomea.add(svgA, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 110, 300, 300));
-        jpHomea.add(svgB, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 100, 60, 60));
 
         jLabel19.setFont(new java.awt.Font("Segoe UI", 2, 14)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(100, 19, 19));
@@ -1043,7 +1019,6 @@ public class UserDashboard extends JFrame {
             }
         });
         jPanel5.add(amDeletebt, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 470, 290, 40));
-        jPanel5.add(svgAva, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 40, 160, 160));
 
         amNameDisplay.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
         amNameDisplay.setForeground(new java.awt.Color(255, 255, 255));
@@ -4030,13 +4005,15 @@ public class UserDashboard extends JFrame {
         jLabel8.setText("THE COFFEE HOME");
         pnMain.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 20, -1, -1));
 
-        openMenu.setText(" ");
-        openMenu.addMouseListener(new java.awt.event.MouseAdapter() {
+        jLabel313.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel313.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel313.setText("MỞ");
+        jLabel313.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                openMenuMouseClicked(evt);
+                jLabel313MouseClicked(evt);
             }
         });
-        pnMain.add(openMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 50, 50));
+        pnMain.add(jLabel313, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -4096,18 +4073,18 @@ public class UserDashboard extends JFrame {
 
     public void addSVG() // Thêm file svg vào giao diện
     {
-        svgA.setSVGImage("image_svg/logo.svg", 300, 300);
-        svgB.setSVGImage("image_svg/discount.svg", 60, 60);
-        openMenu.setSVGImage("image_svg/menu.svg", 30, 30);
-        closeMenu.setSVGImage("image_svg/closemenu.svg", 30, 30);
-        mainLogo.setSVGImage("image_svg/mainlogo.svg", 90, 90);
-        svgHome.setSVGImage("image_svg/home.svg", 30, 30);
-        svgAccount.setSVGImage("image_svg/account.svg", 30, 30);
-        svgVou.setSVGImage("image_svg/voucher.svg", 30, 30);
-        svgShop.setSVGImage("image_svg/shop.svg", 30, 30);
-        svgHistory.setSVGImage("image_svg/his.svg", 30, 30);
-        svgChat.setSVGImage("image_svg/chat.svg", 30, 30);
-        svgLogout.setSVGImage("image_svg/logout.svg", 30, 30);
+//        svgA.setSVGImage("image_svg/logo.svg", 300, 300);
+//        svgB.setSVGImage("image_svg/discount.svg", 60, 60);
+//        openMenu.setSVGImage("image_svg/menu.svg", 30, 30);
+//        closeMenu.setSVGImage("image_svg/closemenu.svg", 30, 30);
+//        mainLogo.setSVGImage("image_svg/mainlogo.svg", 90, 90);
+//        svgHome.setSVGImage("image_svg/home.svg", 30, 30);
+//        svgAccount.setSVGImage("image_svg/account.svg", 30, 30);
+//        svgVou.setSVGImage("image_svg/voucher.svg", 30, 30);
+//        svgShop.setSVGImage("image_svg/shop.svg", 30, 30);
+//        svgHistory.setSVGImage("image_svg/his.svg", 30, 30);
+//        svgChat.setSVGImage("image_svg/chat.svg", 30, 30);
+//        svgLogout.setSVGImage("image_svg/logout.svg", 30, 30);
     }
 
     // THIẾT KẾ GIAO DIỆN ------------------------------------------------------
@@ -4226,11 +4203,11 @@ public class UserDashboard extends JFrame {
         amSignDate.setEditable(false);
         amDiem.setEditable(false);
 
-        svgAva.setSVGImage("image_svg/nam.svg", 160, 160);
-        if ("Nữ".equals(k.getGioitinh())) {
-            svgAva.setSVGImage("image_svg/nu.svg", 160, 160);
-            amSex.setSelectedItem("Nữ");
-        }
+//        svgAva.setSVGImage("image_svg/nam.svg", 160, 160);
+//        if ("Nữ".equals(k.getGioitinh())) {
+//            svgAva.setSVGImage("image_svg/nu.svg", 160, 160);
+//            amSex.setSelectedItem("Nữ");
+//        }
     }
 
     // XỬ LÝ TRÊN PANEL MENU ---------------------------------------------------
@@ -4781,7 +4758,7 @@ public class UserDashboard extends JFrame {
     }//GEN-LAST:event_jCheckBox41ActionPerformed
 
     private void lbTimKiemMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbTimKiemMouseClicked
-         MenuCaphe.setVisible(false);
+        MenuCaphe.setVisible(false);
         MenuTra.setVisible(false);
         MenuBanh.setVisible(false);
         MenuTim.setVisible(true);
@@ -4794,6 +4771,14 @@ public class UserDashboard extends JFrame {
     private void timsanphamButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_timsanphamButtonActionPerformed
         timSanPham();
     }//GEN-LAST:event_timsanphamButtonActionPerformed
+
+    private void jLabel313MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel313MouseClicked
+        openMenuBar();
+    }//GEN-LAST:event_jLabel313MouseClicked
+
+    private void jLabel314MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel314MouseClicked
+        closeMenuBar();
+    }//GEN-LAST:event_jLabel314MouseClicked
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel MenuBanh;
@@ -4815,7 +4800,6 @@ public class UserDashboard extends JFrame {
     private javax.swing.JTextField amSignDate;
     public static javax.swing.JTextField amUsername;
     private javax.swing.JButton btnReset;
-    private userView.SVGImage closeMenu;
     private javax.swing.JLabel dieukienLb;
     private javax.swing.JComboBox<String> fieldComboBox;
     private javax.swing.JLabel giaLb;
@@ -5145,6 +5129,8 @@ public class UserDashboard extends JFrame {
     private javax.swing.JLabel jLabel31;
     private javax.swing.JLabel jLabel310;
     private javax.swing.JLabel jLabel312;
+    private javax.swing.JLabel jLabel313;
+    private javax.swing.JLabel jLabel314;
     private javax.swing.JLabel jLabel315;
     private javax.swing.JLabel jLabel316;
     private javax.swing.JLabel jLabel317;
@@ -5441,13 +5427,11 @@ public class UserDashboard extends JFrame {
     private javax.swing.JLabel lbmenusl;
     private javax.swing.JLabel lbmenutt;
     private javax.swing.JTextField loaikmTextfield;
-    private userView.SVGImage mainLogo;
     private javax.swing.JLabel makmLb;
     private javax.swing.JTextField makmTextfield;
     private javax.swing.JLabel ngayLb;
     private javax.swing.JTextField ngaybdTextfield;
     private javax.swing.JTextField ngayktTextfield;
-    private userView.SVGImage openMenu;
     private javax.swing.JPanel pnContainer;
     private javax.swing.JPanel pnMain;
     private javax.swing.JPanel pnSlideMenu;
@@ -5455,16 +5439,6 @@ public class UserDashboard extends JFrame {
     private java.awt.ScrollPane scrollPane2;
     private javax.swing.JComboBox<String> sizeComboBox;
     private javax.swing.JSpinner slSpinner;
-    private userView.SVGImage svgA;
-    private userView.SVGImage svgAccount;
-    private userView.SVGImage svgAva;
-    private userView.SVGImage svgB;
-    private userView.SVGImage svgChat;
-    private userView.SVGImage svgHistory;
-    private userView.SVGImage svgHome;
-    private userView.SVGImage svgLogout;
-    private userView.SVGImage svgShop;
-    private userView.SVGImage svgVou;
     private javax.swing.JTable tableKhuyenMai;
     private javax.swing.JTable tableMenu;
     private javax.swing.JTable tableSanPham;

@@ -6,7 +6,7 @@ import com.formdev.flatlaf.FlatLaf;
 public class First extends javax.swing.JFrame {
     public First() {
         initComponents();
-        svgLogo.setSVGImage("image_svg/logo.svg", 320, 320);
+//        svgLogo.setSVGImage("image_svg/logo.svg", 320, 320);
     }
 
     @SuppressWarnings("unchecked")
@@ -16,7 +16,6 @@ public class First extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel8 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        svgLogo = new userView.SVGImage();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
 
@@ -35,7 +34,6 @@ public class First extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(100, 19, 19));
         jLabel4.setText("THE COFFEE HOME");
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 260, -1, -1));
-        jPanel1.add(svgLogo, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 140, 320, 320));
 
         jButton1.setBackground(new java.awt.Color(100, 19, 19));
         jButton1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
@@ -104,6 +102,5 @@ public class First extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
-    private userView.SVGImage svgLogo;
     // End of variables declaration//GEN-END:variables
 }

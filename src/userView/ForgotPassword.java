@@ -8,7 +8,7 @@ public class ForgotPassword extends javax.swing.JFrame {
     
     public ForgotPassword() {
         initComponents();
-        svgFind.setSVGImage("image_svg/find.svg", 40, 40);
+//        svgFind.setSVGImage("image_svg/find.svg", 40, 40);
         FPassword.setEditable(false);
     }
 
@@ -24,7 +24,7 @@ public class ForgotPassword extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         FPassword = new javax.swing.JPasswordField();
         FSave = new javax.swing.JButton();
-        svgFind = new userView.SVGImage();
+        jButton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -82,12 +82,16 @@ public class ForgotPassword extends javax.swing.JFrame {
         });
         jPanel2.add(FSave, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 190, 240, 40));
 
-        svgFind.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                svgFindMouseClicked(evt);
+        jButton1.setBackground(new java.awt.Color(0, 0, 0));
+        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setText("Tìm");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
             }
         });
-        jPanel2.add(svgFind, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 50, 40, 40));
+        jPanel2.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 50, 60, 40));
 
         jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 100, 450, 320));
 
@@ -143,12 +147,7 @@ public class ForgotPassword extends javax.swing.JFrame {
     }//GEN-LAST:event_FPasswordActionPerformed
 
     private void svgFindMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_svgFindMouseClicked
-        if(isUsername()){
-            if(fp.isUsernameExist(FUsername.getText())){
-                JOptionPane.showMessageDialog(this, "Đã tìm thấy người dùng " + FUsername.getText(), "Thông báo", 1);
-                FPassword.setEditable(true);
-            }
-        }
+        
     }//GEN-LAST:event_svgFindMouseClicked
 
     private void FSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FSaveActionPerformed
@@ -161,16 +160,25 @@ public class ForgotPassword extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_FSaveActionPerformed
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        if(isUsername()){
+            if(fp.isUsernameExist(FUsername.getText())){
+                JOptionPane.showMessageDialog(this, "Đã tìm thấy người dùng " + FUsername.getText(), "Thông báo", 1);
+                FPassword.setEditable(true);
+            }
+        }
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel FBackLogin;
     private javax.swing.JPasswordField FPassword;
     private javax.swing.JButton FSave;
     private javax.swing.JTextField FUsername;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private userView.SVGImage svgFind;
     // End of variables declaration//GEN-END:variables
 }
